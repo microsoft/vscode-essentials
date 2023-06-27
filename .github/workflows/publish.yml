@@ -36,17 +36,17 @@ jobs:
       - name: Generate website and eBook
         run: npm run build
 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v2
+      # - name: Setup GitHub Pages
+      #   uses: actions/configure-pages@v2
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: _book
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     path: _book
 
-      - name: Deploy website to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      # - name: Deploy website to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v1
 
       - name: Update eBook release
         uses: ncipollo/release-action@v1.12.0
