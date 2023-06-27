@@ -9,6 +9,7 @@
     "build": "npm run build:website -s && npm run build:book -s",
     "build:website": "honkit build",
     "build:book": "mkdir -p dist && honkit pdf ./ ./dist/vs-code-essentials.pdf && honkit epub ./ ./dist/vs-code-essentials.epub && honkit mobi ./ ./dist/vs-code-essentials.mobi",
+    "build:docx": "mkdir -p dist && pandoc -o ./dist/dossier-vs-code.docx -f markdown -t docx ./programmez/dossier.md",
     "build:clean": "rm -rf _book dist",
     "format": "prettier --write '(src|scripts)/**/*.{ts,json,scss}'",
     "prepare": "husky install"
