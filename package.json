@@ -1,17 +1,21 @@
 {
   "name": "vscode-essentials",
   "version": "1.0.0",
-  "description": "VS Code Essentials Ebook",
+  "description": "VS Code Essentials eBook",
   "private": true,
   "main": "index.js",
   "scripts": {
+    "start": "honkit serve",
+    "build": "npm run build:website -s && npm run build:book -s",
+    "build:website": "honkit build",
+    "build:book": "mkdir -p dist && honkit pdf ./ ./dist/vs-code-essentials.pdf && honkit epub ./ ./dist/vs-code-essentials.epub && honkit mobi ./ ./dist/vs-code-essentials.mobi",
+    "build:clean": "rm -rf _book dist",
     "format": "prettier --write '(src|scripts)/**/*.{ts,json,scss}'",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
   "license": "CC BY-SA 4.0",
   "devDependencies": {
+    "honkit": "^4.0.7",
     "husky": "^8.0.0",
     "prettier": "^2.8.8",
     "pretty-quick": "^3.1.3"
