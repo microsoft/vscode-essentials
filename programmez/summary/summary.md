@@ -1,26 +1,31 @@
 # Dossier Programmez VS Code
 
+[Both] Intro
+
 ## L'essentiel
 
-- Démarrer avec VS Code
-  - Installation
+- [Chris] Démarrer avec VS Code
+  - Installation (vscode.dev, user mode, winget, Dev Home, insiders edition)
   - Fonctionnement de base (panneaux, status bar, commandes, split view, minimap etc.)
-- Personalisation de l’éditeur (layout, theme, config, profiles, synchronisation)
+- [Yoh] Personalisation de l’éditeur (layout, theme, config, profiles, synchronisation)
   - Configuration par projet (workspace, extensions, snippets, settings, etc.)
-- Notre top des extensions
-- La gestion de git dans VS Code
+- [Both] Notre top des extensions
+- [Chris] La gestion de git dans VS Code (+ mention GitLens?)
 
 ## Aller plus loin
 
-- Fonctions d’édition avancées (refactoring, multi curseurs, snippets, etc.)
-- Au-delà du code (markdown, notes, todo, mindmap, schema, etc.)
-- Utiliser Polyglot Notebooks
-- Développer dans des conteneurs
-- Créez votre première extension
-- Tirer le meilleur parti de GitHub Copilot (??? pour le dossier programmez, mais def pour le bouquin/version en ligne ???)
+- [Yoh] Fonctions d’édition avancées (refactoring, multi curseurs, snippets, etc.)
+- [Yoh] Au-delà du code (markdown, notes, todo, mindmap, schema, etc.)
+- [Chris] Utiliser Polyglot Notebooks
+- [Yoh] Développer dans des conteneurs
+- [Yoh] Créez votre première extension
+
+## Proposition d'article
+
+- Tirer le meilleur parti de GitHub Copilot
 
 ## Notes pour Chris et moi
 
-- Screenshots sous windows (zoom 1)
+- Screenshots sous windows (zoom 100%) / 1920x1080 / scale windows 150%
 - Theme: Dark+ (default dark)
 - Taille max du dossier? en mots

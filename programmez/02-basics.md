@@ -1,3 +1,3 @@
 ## Fonctionnement de base
 
-workspace, profiles, synchronization (maybe for customization?)
+panneaux, status bar, commandes, split view, minimap etc.
