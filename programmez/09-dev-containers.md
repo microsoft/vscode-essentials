@@ -1,10 +1,10 @@
 ## Développer dans un conteneur
 
-Avec l'extension **Dev Containers**, il est possible d'avoir son environnement de développement complet dans un conteneur Docker. Mais quel est l'intérêt ? Cette approche a plusieurs avantages:
+Avec l'extension **Dev Containers**, il est possible d'avoir son environnement de développement complet dans un conteneur Docker. Mais quel est l'intérêt? Cette approche a plusieurs avantages:
 
-- **Rapidité d'installation** : pour travailler sur un nouveau projet, il suffit de cloner le dépôt et d'ouvrir le dossier dans VS Code. L'extension va alors télécharger l'image Docker et lancer le conteneur, qui contient tout ce dont vous avez besoin pour travailler sur le projet. Fini les longues installations d'outils et dépendances !
-- **Reproductibilité** : l'environnement de développement peut être partagé avec vos collègues, pour être sûr que tout le monde travaille dans les mêmes conditions. Il peut également être versionné avec votre code, ce qui facilite les mise à jour.
-- **Cloisonnement des projets** : chaque projet dispose de son propore environnement isolé, ce qui évite les conflits de version et permet de ne pas polluer votre système avec des dépendances de développement.
+- **Rapidité d'installation**: pour travailler sur un nouveau projet, il suffit de cloner le dépôt et d'ouvrir le dossier dans VS Code. L'extension va alors télécharger l'image Docker et lancer le conteneur, qui contient tout ce dont vous avez besoin pour travailler sur le projet. Fini les longues installations d'outils et dépendances !
+- **Reproductibilité**: l'environnement de développement peut être partagé avec vos collègues, pour être sûr que tout le monde travaille dans les mêmes conditions. Il peut également être versionné avec votre code, ce qui facilite les mise à jour.
+- **Cloisonnement des projets**: chaque projet dispose de son propore environnement isolé, ce qui évite les conflits de version et permet de ne pas polluer votre système avec des dépendances de développement.
 
 Pour l'utiliser, il faut d'abord installer Docker sur votre machine. Ensuite après avoir installé l'extension, vous pouvez configurer un nouvel environnement pour votre project en cliquant sur l'icône en bas à gauche puis en sélectionnant `Ajouter les fichiers de configuration du conteneur de développement...`. Vous pouvez ensuite choisir un environnement de base parmi les nombreux modèles proposés, ou bien créer votre propre configuration.
 
@@ -36,4 +36,4 @@ Une fois la configuration du conteneur terminée, il ne vous reste plus qu’à 
 
 Il suffira ensuite de selectionner `Rebuild` pour mettre à jour votre environnement de développement.
 
-> Bon à savoir: il est possible d'utiliser les conteneurs de développement même avec des projets qui utilisent Docker directement. Dans ce cas il y a deux choix de fonctionnement possibles: avoir un nouvel environnement Docker isolé de celui de sa machine, ou au contraire appeler directement le Docker de la machine hôte depuis le conteneur de développement. Je vous invite à consulter le site https://containers.dev/features pour la liste des fonctionnalités activables.
+> **Bon à savoir**: il est possible d'utiliser les conteneurs de développement même avec des projets qui utilisent Docker directement. Dans ce cas il y a deux choix de fonctionnement possibles: avoir un nouvel environnement Docker isolé de celui de sa machine, ou au contraire appeler directement le Docker de la machine hôte depuis le conteneur de développement. Je vous invite à consulter le site https://containers.dev/features pour la liste des fonctionnalités activables.

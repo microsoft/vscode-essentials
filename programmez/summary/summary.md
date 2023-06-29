@@ -7,7 +7,7 @@
 - [Chris] Démarrer avec VS Code
   - Installation (vscode.dev, user mode, winget, Dev Home, insiders edition)
   - Fonctionnement de base (panneaux, status bar, commandes, split view, minimap etc.)
-- [Yoh] Personalisation de l’éditeur (layout, theme, config, profiles, synchronisation)
+- [Yoh] Personnalisation de l’éditeur (layout, theme, config, profiles, synchronisation)
   - Configuration par projet (workspace, extensions, snippets, settings, etc.)
 - [Both] Notre top des extensions
 - [Chris] La gestion de git dans VS Code (+ mention GitLens?)

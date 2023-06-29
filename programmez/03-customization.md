@@ -1,10 +1,10 @@
-## Personalisation de l'éditeur
+## Personnalisation de l'éditeur
 
 L'une des forces de VS Code est sa capacité à être personnalisé et s'adapter entièrement à vos besoins. On peut ainsi modifier l'apparence de l'éditeur, ajouter des extensions, de modifier ou créer ses raccourcis clavier, et bien plus encore.
 
 Une des premières choses que l'on fait après avoir installé VS Code est de choisir un thème. Il en existe des centaines, et vous pouvez même créer le vôtre. Si vous ouvrez la palette de commandes et cherchez l'option `Préférences: Thème de couleur`, vous pourrez en choisir un dans la liste les thèmes disponibles.
 
-> **Astuce:** en navigant dans la liste avec les flèche haut et bas du clavier, vous pourrez voir un aperçu du thème sélectionné.
+> **Astuce**: en navigant dans la liste avec les flèche haut et bas du clavier, vous pourrez voir un aperçu du thème sélectionné.
 
 ![Choix du thème](./images/theme.png)
 
@@ -30,7 +30,7 @@ https://code.visualstudio.com/docs/getstarted/keybindings#_command-arguments
 
 raccourcis clavier,
 
-> **Astuce:** Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant `Aide: Référence des raccourcis clavier` dans la palette de commande.
+> **Astuce**: Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant `Aide: Référence des raccourcis clavier` dans la palette de commande.
 
 ### Configuration des paramètres
 
