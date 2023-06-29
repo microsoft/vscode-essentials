@@ -34,4 +34,6 @@ Une fois la configuration du conteneur terminée, il ne vous reste plus qu’à 
 
 ![Notification de mise à jour de la configuration du conteneur](./images/dev-container-update.png)
 
-Il suffira ensuite de selectionner sur `Recharger` pour mettre à jour votre environnement de développement.
+Il suffira ensuite de selectionner `Rebuild` pour mettre à jour votre environnement de développement.
+
+> Bon à savoir: il est possible d'utiliser les conteneurs de développement même avec des projets qui utilisent Docker directement. Dans ce cas il y a deux choix de fonctionnement possibles: avoir un nouvel environnement Docker isolé de celui de sa machine, ou au contraire appeler directement le Docker de la machine hôte depuis le conteneur de développement. Je vous invite à consulter le site https://containers.dev/features pour la liste des fonctionnalités activables.
