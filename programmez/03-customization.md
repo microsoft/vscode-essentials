@@ -16,11 +16,13 @@ Si les thèmes proposés par défaut ne vous conviennent pas, vous pouvez égale
 
 Votre choix de thème est sauvegardé dans vos _Préférences utilisateur_, et s'applique par défaut à tous vos projets (aussi appelés _espaces de travail_).
 
-```json
+```
 "workbench.colorTheme": "Default Dark+"
 ```
 
 Il est cependant possible de choisir un thème différent pour vos projets en créant un fichier de configuration spécifique pour l'espace de travail, comme nous allons le voir plus loin.
+
+TODO: plus loin en customisatoin son propre theme, ex: background image
 
 ### Racourcis clavier
 

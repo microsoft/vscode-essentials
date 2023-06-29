@@ -6,20 +6,23 @@
 
 ENV
 
-- Dev Containers
-- REST Client
-  EditorConfig
-- Prettier
-  Docker
-  ESLint
-- Microsoft Edge Tools for VS Code
-  GitHub Actions
-- GitHub Copilot
-- ShellCheck
-  C/C++
-  PlatformIO IDE
 - Material Icon Theme
 - Emojisense
-  Git History
 - Git Graph
 - TODO Tree
+
+- REST Client
+- Microsoft Edge Tools for VS Code
+- Prettier
+
+- Dev Containers
+- GitHub Copilot
+- ShellCheck
+
+  EditorConfig
+  Docker
+  ESLint
+  GitHub Actions
+  C/C++
+  PlatformIO IDE
+  Git History
