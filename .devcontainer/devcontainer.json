@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+  "name": "Node.js",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/pandoc:1": {},
+    "ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {
+      "command1": "sudo apt-get update && sudo apt-get install -y calibre"
+    }
+  },
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "npm install && npm version"
+
+  // Configure tool-specific properties.
+  // "customizations": {},
+}
