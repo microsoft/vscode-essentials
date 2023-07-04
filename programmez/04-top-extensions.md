@@ -4,22 +4,20 @@
 
 ### Les indispensables pour le développement web
 
-ENV
-
 - Material Icon Theme
-- Emojisense
 - Git Graph
 - TODO Tree
 
 - REST Client
 - Microsoft Edge Tools for VS Code
+- EditorConfig
 - Prettier
 
 - Dev Containers
 - GitHub Copilot
 - ShellCheck
 
-  EditorConfig
+  ENV
   Docker
   ESLint
   GitHub Actions
