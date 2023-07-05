@@ -2,7 +2,7 @@
 
 (10 chacun?)
 
-### Les indispensables pour le développement web
+### Yohan
 
 - Material Icon Theme
 - Git Graph
