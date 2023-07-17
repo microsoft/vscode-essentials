@@ -4,7 +4,7 @@ Avec l'extension **Dev Containers**, il est possible d'avoir son environnement d
 
 - **Rapidité d'installation**: pour travailler sur un nouveau projet, il suffit de cloner le dépôt et d'ouvrir le dossier dans VS Code. L'extension va alors télécharger l'image Docker et lancer le conteneur, qui contient tout ce dont vous avez besoin pour travailler sur le projet. Fini les longues installations d'outils et dépendances !
 - **Reproductibilité**: l'environnement de développement peut être partagé avec vos collègues, pour être sûr que tout le monde travaille dans les mêmes conditions. Il peut également être versionné avec votre code, ce qui facilite les mise à jour.
-- **Cloisonnement des projets**: chaque projet dispose de son propore environnement isolé, ce qui évite les conflits de version et permet de ne pas polluer votre système avec des dépendances de développement.
+- **Cloisonnement des projets**: chaque projet dispose de son propre environnement isolé, ce qui évite les conflits de version et permet de ne pas polluer votre système avec des dépendances de développement.
 
 Pour l'utiliser, il faut d'abord installer Docker sur votre machine. Ensuite après avoir installé l'extension, vous pouvez configurer un nouvel environnement pour votre project en cliquant sur l'icône en bas à gauche puis en sélectionnant `Ajouter les fichiers de configuration du conteneur de développement...`. Vous pouvez ensuite choisir un environnement de base parmi les nombreux modèles proposés, ou bien créer votre propre configuration.
 
@@ -30,7 +30,7 @@ Par défaut, le conteneur utilise une image Docker pré-construite, mais vous po
 
 Pour appliquer les modifications, vous pouvez reconstruire le conteneur en ouvrant la palette de commande puis en selectionnant `Conteneurs de Devéloppement: Reconstruire le Conteneur`.
 
-Une fois la configuration du conteneur terminée, il ne vous reste plus qu’à pousser le répertoire `.devcontainer` dans votre dépôt de code, pour que toute votre équipe puisse en profiter. Si un de vos collègue met à jour la configuration, vous verrez alors cette notification:
+Une fois la configuration du conteneur terminée, il ne vous reste plus qu’à pousser le répertoire `.devcontainer` dans votre dépôt de code, pour que toute votre équipe puisse en profiter. Si un de vos collègues met à jour la configuration, vous verrez alors cette notification:
 
 ![Notification de mise à jour de la configuration du conteneur](./images/dev-container-update.png)
 

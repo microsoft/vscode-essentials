@@ -1,6 +1,6 @@
 ## Les fonctions d'édition avancées
 
-Quand l'on passe une grande partie de son temps à éditer du code, il est important de pouvoir le faire rapidement et efficacement. VS Code propose de nombreuses fonctionnalités d'édition avancées qui vous permettront de gagner du temps et de vous concentrer ainsi sur l'essentiel.
+Quand on passe une grande partie de son temps à éditer du code, il est important de pouvoir le faire rapidement et efficacement. VS Code propose de nombreuses fonctionnalités d'édition avancées qui vous permettront de gagner du temps et de vous concentrer ainsi sur l'essentiel.
 
 ### Navigation rapide
 
@@ -10,7 +10,7 @@ Naviguer rapidement parmi plusieurs fichiers est une tâche indispensable lorsqu
 
 Plusieurs options s'offrent alors à vous:
 
-- Si vous appuyez à nouveau sur `Ctrl+P` (ou `Cmd+P` sur Mac), vous basculerez automatiquement sur le dernier fichier ouvert précédemment. C'est une méthode très efficace pour naviguer rapidement entre deux fichiers, par exemple lorsque vous écrivez des tests unitaires pour une classe. En gardant appuyé `Ctrl` (ou `Cmd` sur Mac), et en appuyant sur `P` plusieurs fois, vous pouvez aller encore plus loin dans l'historique des fichiers ouverts.
+- Si vous appuyez à nouveau sur `Ctrl+P` (ou `Cmd+P` sur Mac), vous basculerez automatiquement sur le fichier ouvert précédemment. C'est une méthode très efficace pour naviguer rapidement entre deux fichiers, par exemple lorsque vous écrivez des tests unitaires pour une classe. En gardant appuyé `Ctrl` (ou `Cmd` sur Mac), et en appuyant sur `P` plusieurs fois, vous pouvez aller encore plus loin dans l'historique des fichiers ouverts.
 - Vous pouvez saisir une partie du nom du fichier que vous recherchez, et VS Code vous proposera les fichiers correspondants dans votre projet.
 - En rajoutant un `@` après votre recherche, vous pouvez rechercher un symbole dans le fichier ciblé. Cela peut être une variable, une fonction, une classe, etc. Si vous n'avez pas saisi de recherche, cela vous permet de naviguer dans le fichier courant.
 - En rajoutant un `:` après votre recherche, vous accéder directement à une ligne spécifique dans le fichier ciblé. De même que précedemment, cela fonctionne aussi pour le fichier courant.
@@ -19,7 +19,7 @@ Si vous ne connaissez pas bien la structure du projet et le nom des fichiers, un
 
 ### Refactoring
 
-Quand on code, la première version est rarement définitive. Refactorer son code est une étape importante pour le rendre plus lisible, plus maintenable, et plus performant. Heureusement, VS Code propose de nombreuses fonctionnalités pour vous aider à gagnger du temps lors de cette étape.
+Quand on écrit du code, la première version est rarement définitive. Refactorer son code est une étape importante pour le rendre plus lisible, plus maintenable, et plus performant. Heureusement, VS Code propose de nombreuses fonctionnalités pour vous aider à gagner du temps lors de cette étape.
 
 Pour renommer rapidement une variable, une fonction, ou une classe, il suffit de positionner le curseur sur celui-ci et d'appuyer sur `F2` ou de faire un clic droit et de sélectionner `Renommer le symbole`. Une fois le nouveau nom saisi, soit vous êtes confiant et vous appuyez sur `Entrée` pour valider, soit vous préférez vérifier les changements avant de les appliquer avec `Maj+Entrée` pour ouvrir une fenêtre de prévisualisation.
 
