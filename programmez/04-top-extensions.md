@@ -15,12 +15,13 @@
 
 - Dev Containers
 - GitHub Copilot
-- ShellCheck
+- PlatformIO IDE
 
-  ENV
-  Docker
-  ESLint
-  GitHub Actions
-  C/C++
-  PlatformIO IDE
-  Git History
+(autres idees si conflit)
+ShellCheck
+ENV
+Docker
+ESLint
+GitHub Actions
+C/C++
+Git History
