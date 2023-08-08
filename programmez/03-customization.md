@@ -22,7 +22,21 @@ Votre choix de thème est sauvegardé dans vos _Préférences utilisateur_, et s
 
 Il est cependant possible de choisir un thème différent pour vos projets en créant un fichier de configuration spécifique pour l'espace de travail, comme nous allons le voir plus loin.
 
-TODO: plus loin en customisatoin son propre theme, ex: background image
+### Modification du thème courant
+
+Si vous voulez changer une ou plusieurs couleurs du thème courant, vous pouvez le faire en modifiant le fichier `settings.json` de vos préférences utilisateur. Pour cela, ouvrez la palette de commandes et cherchez l'option `Préférences: Ouvrir les paramètres (JSON)`.
+
+Les propriétés `workbench.colorCustomizations` et `editor.tokenColorCustomizations` vous permettent de modifier respectivement les couleurs de l'interface et de l'éditeur de code. Par exemple, vous pouvez changer la couleur de fond de la barre latérale avec la propriété `activityBar.background`:
+
+```
+"workbench.colorCustomizations": {
+    "activityBar.background": "#223355",
+}
+```
+
+L'autocomplétion (`Ctrl+Espace`) vous permettra de voir toutes les valeurs disponibles pour ces propriétés.
+
+Il est également possible d'apporter des changements au thème courant via des extensions. Par exemple l'extension `background` du marketplace permet d'ajouter une image de fond à l'éditeur, et l'extension `Peacock` vous permet de changer la couleur de chaque nouvelle instance de VS Code pour mieux les différencier.
 
 ### Racourcis clavier
 
