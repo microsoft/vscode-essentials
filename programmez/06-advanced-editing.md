@@ -45,11 +45,11 @@ Ma fonctionnalité favorite de VS Code est sans aucun doute l'édition multi-cur
 - Via le raccourci `Maj+Ctrl+Alt+Haut/Bas` (ou `Maj+Cmd+Alt+Haut/Bas` sur Mac) pour ajouter un curseur sur la ligne au-dessus ou en-dessous du curseur actuel.
 - En sélectionnant un mot ou une expression, et en appuyant sur `Ctrl+D` (ou `Cmd+D` sur Mac) pour sélectionner la prochaine occurrence, répétable à l'envie. Il est possible d'ignorer la prochaine occurence avec `Ctrl+K, Ctrl+D` (ou `Cmd+K, Cmd+D` sur Mac). Enfin, le raccourci `Maj+Ctrl+L` (ou `Maj+Cmd+L` sur Mac) permet de sélectionner toutes les occurrences en une seule fois.
 
-Une fois vos curseurs en place, on peut les déplacer avec les flèches du clavier, et éditer le texte normalement. Mais cette fois les changements seront appliqués à tous les curseurs en même temps! Cette fonctionnalité est très pratique pour eviter de faire des modifications répétitives à la main, comme par exemple ajouter des guillemets autour de chaque élément d'un tableau. Elle demande cependant un peu d'entrainement pour être utilisée efficacement.
+Une fois vos curseurs en place, on peut les déplacer avec les flèches du clavier, et éditer le texte normalement. Mais cette fois les changements seront appliqués à tous les curseurs en même temps ! Cette fonctionnalité est très pratique pour éviter de faire des modifications répétitives à la main, tel qu'ajouter des guillemets autour de chaque élément d'un tableau. Elle demande cependant un peu d'entrainement pour être utilisée efficacement.
 
 ![Edition multi-curseurs](./images/multi-cursor-edit.png)
 
-**Astuce**: Naviguer au sein de plusieurs lignes peut parfois s'avérer fastidieux. En utilisant `Alt+Gauche/Droite`, les curseurs se déplaceront par mots et non plus par caractères, ce qui peut être très pratique lorsque l'on edite des propriétés JSON par exemple.
+**Astuce** : Naviguer au sein de plusieurs lignes peut parfois s'avérer fastidieux. En utilisant `Alt+Gauche/Droite`, les curseurs se déplaceront par mots et non plus par caractères, ce qui peut être très pratique lorsque l'on édite des propriétés JSON par exemple.
 
 ### Snippets
 
@@ -59,7 +59,7 @@ Les snippets apparaissent dans la liste d'autocomplétion avec `Ctrl+Espace`. Il
 
 ![Exemple de suggestion de snippet](./images/snippet-suggestion.png)
 
-Pour créer un snippet, sélectionnez `Extraits: Configurer les extraits de l'utilisateur` dans la palette de commande. Vous aurez alors le choix de créer des snippets pour un langage spécifique, dans un fichier global, ou uniquement pour le projet courant. Les snippets sont au format JSON et suivent la syntaxe **TextMate**, en voici un exemple:
+Pour créer un snippet, sélectionnez `Extraits: Configurer les extraits de l'utilisateur` dans la palette de commande. Vous aurez alors le choix de créer des snippets pour un langage spécifique, dans un fichier global, ou uniquement pour le projet courant. Les snippets sont au format JSON et suivent la syntaxe **TextMate**, en voici un exemple :
 
 ```json
 {
@@ -71,9 +71,13 @@ Pour créer un snippet, sélectionnez `Extraits: Configurer les extraits de l'ut
 }
 ```
 
+<<<<<<< HEAD
 Le champ `prefix` correspond au mot-clé qui permettra d'insérer le snippet. Le champ `body` contient le contenu du snippet, et le champ `description` facultatif permet de décrire le snippet lorsqu'il s'affiche dans l'autocompletion. Les `$` sont utilisés pour définir les points d'insertion, et l'on peut passer rapidement d'un point à un autre avec avec `Tab`. Enfin, le `:` d'un point d'insertion comme avec `${1:name}` permet de définir une valeur par défaut, comme ici `name`. A noter qu'il est possible de définir des snippets pour un projet spécifique en créant un fichier `.vscode/<langage>.code-snippets`, afin de les partager avec vos collègues.
+=======
+Le champ `prefix` correspond au mot-clé qui permettra d'insérer le snippet. Le champ `body` contient le contenu du snippet, et le champ `description` facultatif permet de décrire le snippet lorsqu'il s'affiche dans l'autocomplétion. Les `$` sont utilisés pour définir les points d'insertion, et l'on peut passer rapidement d'un point à un autre avec avec `Tab`. Enfin, le `:` d'un point d'insertion comme avec `${1:name}` permet de définir une valeur par défaut, comme ici `name`.
+>>>>>>> 3bf8fa7 (chore: more edits)
 
-VS Code dispose également d'un support intégré des abbrévations **Emmet**. Il s'agit d'un langage qui permet de générer du code HTML et CSS à partir d'abbréviations. Par exemple, en tapant `div>ul>li*3>span.line$` dans un fichier HTML, VS Code proposera d'étendre l'abbrévation via la liste d'autocompletion. Validez avec `Tab` pour obtenir le code suivant:
+VS Code dispose également d'un support intégré des abbrévations **Emmet**. Il s'agit d'un langage qui permet de générer du code HTML et CSS à partir d'abbréviations. Par exemple, en tapant `div>ul>li*3>span.line$` dans un fichier HTML, VS Code proposera d'étendre l'abbrévation via la liste d'autocomplétion. Validez avec `Tab` pour obtenir le code suivant:
 
 ```html
 <div>
@@ -89,7 +93,7 @@ Cette syntaxe est très pratique pour écrire rapidement du code HTML et CSS. Po
 
 ### Edition collaborative
 
-Ce n'est par parce que l'on travaille à distance que l'on doit travailler seul! Grâce à des extensions comme **Live Share**, il est possible de collaborer en temps réel avec vos collègues sur le même projet, pour du pair-programming ou de la revue de code par exemple. Après avoir installé l'extension, il suffit de sélectionner la nouvelle icône Live Share qui s'est rajoutée dans la barre latérale et de cliquer sur `Share` pour démarrer une session collaborative. On peut ensuite inviter ses collègues à rejoindre la session en leur envoyant le lien généré.
+Ce n'est pas parce que l'on travaille à distance que l'on doit travailler seul ! Grâce à des extensions comme **Live Share**, il est possible de collaborer en temps réel avec vos collègues sur le même projet, pour du pair-programming ou de la revue de code par exemple. Après avoir installé l'extension, il suffit de sélectionner la nouvelle icône Live Share qui s'est rajoutée dans la barre latérale et de cliquer sur `Share` pour démarrer une session collaborative. On peut ensuite inviter ses collègues à rejoindre la session en leur envoyant le lien généré.
 
 ![Session Live Share](./images/live-share.png)
 
