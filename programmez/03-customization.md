@@ -4,11 +4,11 @@ L'une des forces de VS Code est sa capacité à être personnalisé et s'adapter
 
 Une des premières choses que l'on fait après avoir installé VS Code est de choisir un thème. Il en existe des centaines, et vous pouvez même créer le vôtre. Si vous ouvrez la palette de commandes et cherchez l'option `Préférences: Thème de couleur`, vous pourrez en choisir un dans la liste les thèmes disponibles.
 
-> **Astuce**: en navigant dans la liste avec les flèche haut et bas du clavier, vous pourrez voir un aperçu du thème sélectionné.
+> **Astuce** : en navigant dans la liste avec les flèche haut et bas du clavier, vous pourrez voir un aperçu du thème sélectionné.
 
 ![Choix du thème](./images/theme.png)
 
-Si les thèmes proposés par défaut ne vous conviennent pas, vous pouvez également en télécharger d'autres sur le marketplace d'extensions. Selectionnez l'icône d'extension dans la barre latérale, et entrez `@category:"themes"` dans la barre de recherche. A noter qu'un thème VS Code peut couvrir un ou plusieurs des éléments suivants, qui peuvent être choisis indépendamment:
+Si les thèmes proposés par défaut ne vous conviennent pas, vous pouvez également en télécharger d'autres sur la marketplace d'extensions. Sélectionnez l'icône d'extension dans la barre latérale, et entrez `@category:"themes"` dans la barre de recherche. A noter qu'un thème VS Code peut couvrir un ou plusieurs des éléments suivants, qui peuvent être choisis indépendamment :
 
 - Couleurs de l'interface
 - Icônes de fichiers
@@ -60,11 +60,11 @@ Il suffit alors de suivre le même procédé sur vos autres machines pour retrou
 
 A noter également que le dossier `.vscode` peut contenir d'autres fichiers de configuration, comme `launch.json` pour la configuration du débogueur, `tasks.json` pour la configuration des tâches, ou encore `extensions.json` pour la configuration des extensions recommandées pour le projet. Lorsqu'il est partagé avec l'équipe, ce dossier permet ainsi de standardiser la configuration de l'éditeur pour tous les développeurs.
 
-### Racourcis clavier
+### Raccourcis clavier
 
 Pour être efficace quand on code, rien de tel que de savoir utiliser les raccourcis clavier. VS Code en propose des centaines, et vous pouvez modifier ceux existants ou en créer de nouveaux. Pour cela, ouvrez la palette de commandes et cherchez l'option `Préférences: Ouvrir les raccourcis clavier`. Vous verrez alors s'afficher la longue liste des raccourcis clavier déjà configurés, mais également l'ensemble des commandes de l'éditeur et des extensions installées pour lesquelles vous pouvez créer un raccourci.
 
-> **Astuce**: Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant `Aide: Référence des raccourcis clavier` dans la palette de commande.
+> **Astuce**: Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en sélectionnant `Aide: Référence des raccourcis clavier` dans la palette de commande.
 
 De manière similaire aux paramètres utilisateur, les raccourcis claviers sont stockés dans un fichier `keybindings.json` qu'il est possible de modifier directement. Si vous êtes à l'aise avec le JSON, il est même possible d'ajouter des conditions pour que le raccourci ne soit actif que dans certains contextes, ou de configurer des macros consistant en une suite de commandes. Par exemple, ici le raccourci `Ctrl+N` crée un nouveau fichier TypeScript et insère un template de classe:
 
