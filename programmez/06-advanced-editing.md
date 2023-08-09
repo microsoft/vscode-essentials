@@ -8,12 +8,12 @@ Naviguer rapidement parmi plusieurs fichiers est une tâche indispensable lorsqu
 
 ![Navigation de fichier rapide](./images/quick-navigation.png)
 
-Plusieurs options s'offrent alors à vous:
+Plusieurs options s'offrent alors à vous :
 
 - Si vous appuyez à nouveau sur `Ctrl+P` (ou `Cmd+P` sur Mac), vous basculerez automatiquement sur le fichier ouvert précédemment. C'est une méthode très efficace pour naviguer rapidement entre deux fichiers, par exemple lorsque vous écrivez des tests unitaires pour une classe. En gardant appuyé `Ctrl` (ou `Cmd` sur Mac), et en appuyant sur `P` plusieurs fois, vous pouvez aller encore plus loin dans l'historique des fichiers ouverts.
 - Vous pouvez saisir une partie du nom du fichier que vous recherchez, et VS Code vous proposera les fichiers correspondants dans votre projet.
 - En rajoutant un `@` après votre recherche, vous pouvez rechercher un symbole dans le fichier ciblé. Cela peut être une variable, une fonction, une classe, etc. Si vous n'avez pas saisi de recherche, cela vous permet de naviguer dans le fichier courant.
-- En rajoutant un `:` après votre recherche, vous accéder directement à une ligne spécifique dans le fichier ciblé. De même que précedemment, cela fonctionne aussi pour le fichier courant.
+- En rajoutant un `:` après votre recherche, vous accéder directement à une ligne spécifique dans le fichier ciblé. De même que précédemment, cela fonctionne aussi pour le fichier courant.
 
 Si vous ne connaissez pas bien la structure du projet et le nom des fichiers, une autre Alternative est d'utiliser le raccourci `Maj+Ctrl+.` (ou `Maj+Cmd+.` sur Mac). Cela va ouvrir la barre de navigation (_breadcrumbs_), qui vous permettra de naviguer dans le fichier courant et remonter l'arborescence de votre projet en utilisant les flèches du clavier.
 
@@ -35,7 +35,7 @@ Si vous appréciez avoir une base de code propre et bien formatée, vous pouvez 
 
 ![Paramètres de formatage automatique](./images/format-settings.png)
 
-> **Le saviez-vous ?** Il est possible d'insérer facilement des emojis à tout moment dans VS Code grâce à l'Emoji Picker intégré. Pour l'ouvrir, utilisez le raccourci clavier `Ctrl+I` (ou `Cmd+I` sur Mac). Vous pouvez ensuite rechercher un emoji par son nom, et l'insérer dans votre code en appuyant sur `Entrée`.
+> **Le saviez-vous ?** Il est possible d'insérer facilement des emojis à tout moment dans VS Code grâce à l'Emoji Picker intégré. Pour l'ouvrir, utilisez le raccourci clavier `Ctrl+I` (ou `Cmd+I` sur Mac). Vous pouvez ensuite rechercher un emoji par son nom, et l'insérer dans votre code en appuyant sur `Entrée`. 
 
 ### Edition multi-curseurs
 
