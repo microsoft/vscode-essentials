@@ -71,7 +71,7 @@ Pour créer un snippet, sélectionnez `Extraits: Configurer les extraits de l'ut
 }
 ```
 
-Le champ `prefix` correspond au mot-clé qui permettra d'insérer le snippet. Le champ `body` contient le contenu du snippet, et le champ `description` facultatif permet de décrire le snippet lorsqu'il s'affiche dans l'autocompletion. Les `$` sont utilisés pour définir les points d'insertion, et l'on peut passer rapidement d'un point à un autre avec avec `Tab`. Enfin, le `:` d'un point d'insertion comme avec `${1:name}` permet de définir une valeur par défaut, comme ici `name`.
+Le champ `prefix` correspond au mot-clé qui permettra d'insérer le snippet. Le champ `body` contient le contenu du snippet, et le champ `description` facultatif permet de décrire le snippet lorsqu'il s'affiche dans l'autocompletion. Les `$` sont utilisés pour définir les points d'insertion, et l'on peut passer rapidement d'un point à un autre avec avec `Tab`. Enfin, le `:` d'un point d'insertion comme avec `${1:name}` permet de définir une valeur par défaut, comme ici `name`. A noter qu'il est possible de définir des snippets pour un projet spécifique en créant un fichier `.vscode/<langage>.code-snippets`, afin de les partager avec vos collègues.
 
 VS Code dispose également d'un support intégré des abbrévations **Emmet**. Il s'agit d'un langage qui permet de générer du code HTML et CSS à partir d'abbréviations. Par exemple, en tapant `div>ul>li*3>span.line$` dans un fichier HTML, VS Code proposera d'étendre l'abbrévation via la liste d'autocompletion. Validez avec `Tab` pour obtenir le code suivant:
 
