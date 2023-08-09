@@ -12,15 +12,12 @@
   },
 
   // Use 'postCreateCommand' to run commands after the container is created.
-"postCreateCommand": "npm install",
-"customizations": {
-	"vscode": {
-		"extensions": [
-			"EditorConfig.EditorConfig"
-		]
-	}
-}
+  "postCreateCommand": "npm install",
 
   // Configure tool-specific properties.
-  // "customizations": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode"]
+    }
+  }
 }
