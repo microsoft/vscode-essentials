@@ -35,11 +35,11 @@ Si vous appréciez avoir une base de code propre et bien formatée, vous pouvez 
 
 ![Paramètres de formatage automatique](./images/format-settings.png)
 
-> **Le saviez-vous ?** Il est possible d'insérer facilement des emojis à tout moment dans VS Code grâce à l'Emoji Picker intégré. Pour l'ouvrir, utilisez le raccourci clavier `Ctrl+I` (ou `Cmd+I` sur Mac). Vous pouvez ensuite rechercher un emoji par son nom, et l'insérer dans votre code en appuyant sur `Entrée`. 
+> **Le saviez-vous ?** Il est possible d'insérer facilement des emojis à tout moment dans VS Code grâce à l'Emoji Picker intégré. Pour l'ouvrir, utilisez le raccourci clavier `Ctrl+I` (ou `Cmd+I` sur Mac). Vous pouvez ensuite rechercher un emoji par son nom, et l'insérer dans votre code en appuyant sur `Entrée`.
 
 ### Edition multi-curseurs
 
-Ma fonctionnalité favorite de VS Code est sans aucun doute l'édition multi-curseurs. Elle permet d'éditer plusieurs parties de votre code _en même temps_, et de gagner un temps précieux. Il existe plusieurs manières d'activer cette fonctionnalité:
+Ma fonctionnalité favorite de VS Code est sans aucun doute l'édition multi-curseurs. Elle permet d'éditer plusieurs parties de votre code _en même temps_, et de gagner un temps précieux. Il existe plusieurs manières d'activer cette fonctionnalité :
 
 - En utilisant `Alt+Click` pour ajouter un curseur à l'endroit où vous cliquez.
 - Via le raccourci `Maj+Ctrl+Alt+Haut/Bas` (ou `Maj+Cmd+Alt+Haut/Bas` sur Mac) pour ajouter un curseur sur la ligne au-dessus ou en-dessous du curseur actuel.
@@ -73,7 +73,7 @@ Pour créer un snippet, sélectionnez `Extraits: Configurer les extraits de l'ut
 
 Le champ `prefix` correspond au mot-clé qui permettra d'insérer le snippet. Le champ `body` contient le contenu du snippet, et le champ `description` facultatif permet de décrire le snippet lorsqu'il s'affiche dans l'autocomplétion. Les `$` sont utilisés pour définir les points d'insertion, et l'on peut passer rapidement d'un point à un autre avec avec `Tab`. Enfin, le `:` d'un point d'insertion comme avec `${1:name}` permet de définir une valeur par défaut, comme ici `name`.
 
-VS Code dispose également d'un support intégré des abbrévations **Emmet**. Il s'agit d'un langage qui permet de générer du code HTML et CSS à partir d'abbréviations. Par exemple, en tapant `div>ul>li*3>span.line$` dans un fichier HTML, VS Code proposera d'étendre l'abbrévation via la liste d'autocomplétion. Validez avec `Tab` pour obtenir le code suivant:
+VS Code dispose également d'un support intégré des abbrévations **Emmet**. Il s'agit d'un langage qui permet de générer du code HTML et CSS à partir d'abbréviations. Par exemple, en tapant `div>ul>li*3>span.line$` dans un fichier HTML, VS Code proposera d'étendre l'abbrévation via la liste d'autocomplétion. Validez avec `Tab` pour obtenir le code suivant :
 
 ```html
 <div>

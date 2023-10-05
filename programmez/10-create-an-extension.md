@@ -2,7 +2,7 @@
 
 Maintenant que vous connaissez VS Code sur le bout des doigts, pour aller encore plus loin dans la personnalisation vous pouvez coder votre extension. Si une fonctionnalité vous manque, ou si vous souhaitez simplement en apprendre plus sur le fonctionnement interne de VS Code, il est possible de créer sa propre extension et la publier sur la marketplace pour en faire profiter tout le monde.
 
-VS Code lui-même est codé en _TypeScript_, et utilise le framework Electron qui est basé sur _Node.js_ et Chromium. Vous avez ainsi besoin de Node.js pour développer votre extension. Après avoir installé Node.js sur votre machine, il vous faut ensuite installer le générateur d'extensions de VS Code:
+VS Code lui-même est codé en _TypeScript_, et utilise le framework Electron qui est basé sur _Node.js_ et Chromium. Vous avez ainsi besoin de Node.js pour développer votre extension. Après avoir installé Node.js sur votre machine, il vous faut ensuite installer le générateur d'extensions de VS Code :
 
 ```bash
 npm install -g yo generator-code

@@ -43,7 +43,7 @@ Pour ouvrir la palette de commandes, vous pouvez utiliser le raccourci clavier `
 
 C'est une façon efficace de naviguer dans VS Code sans avoir à utiliser la souris, et vous découvrirez probablement des fonctionnalités que vous n'aviez pas remarquées auparavant.
 
-> **Astuce** : Vous avez besoin de concentration ? Utilisez la commande _Afficher: Activer/désactiver le mode zen_ pour masquer tout ce qui est superflu et vous concentrer sur votre code. Il ne vous manque plus qu'un accompagnement musical pour être dans la zone.
+> **Astuce** : Vous avez besoin de concentration ? Utilisez la commande `Afficher: Activer/désactiver le mode zen` pour masquer tout ce qui est superflu et vous concentrer sur votre code. Il ne vous manque plus qu'un accompagnement musical pour être dans la zone.
 
 ### Les raccourcis clavier
 
@@ -59,7 +59,7 @@ Les raccourcis clavier sont essentiels pour une utilisation efficace de VS Code.
 
 Il y a beaucoup d'autres raccourcis clavier disponibles, et ils peuvent vraiment accélérer votre flux de travail.
 
-> **Astuce** : Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant _Aide: Référence des raccourcis clavier_ dans la palette de commande.
+> **Astuce** : Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant `Aide: Référence des raccourcis clavier` dans la palette de commande.
 
 ### Zoom sur la fenêtre d'édition
 

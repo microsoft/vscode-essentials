@@ -64,7 +64,7 @@ A noter également que le dossier `.vscode` peut contenir d'autres fichiers de c
 
 Pour être efficace quand on code, rien de tel que de savoir utiliser les raccourcis clavier. VS Code en propose des centaines, et vous pouvez modifier ceux existants ou en créer de nouveaux. Pour cela, ouvrez la palette de commandes et cherchez l'option `Préférences: Ouvrir les raccourcis clavier`. Vous verrez alors s'afficher la longue liste des raccourcis clavier déjà configurés, mais également l'ensemble des commandes de l'éditeur et des extensions installées pour lesquelles vous pouvez créer un raccourci.
 
-De manière similaire aux paramètres utilisateur, les raccourcis claviers sont stockés dans un fichier `keybindings.json` qu'il est possible de modifier directement. Si vous êtes à l'aise avec le JSON, il est même possible d'ajouter des conditions pour que le raccourci ne soit actif que dans certains contextes, ou de configurer des macros consistant en une suite de commandes. Par exemple, ici le raccourci `Ctrl+N` crée un nouveau fichier TypeScript et insère un template de classe:
+De manière similaire aux paramètres utilisateur, les raccourcis claviers sont stockés dans un fichier `keybindings.json` qu'il est possible de modifier directement. Si vous êtes à l'aise avec le JSON, il est même possible d'ajouter des conditions pour que le raccourci ne soit actif que dans certains contextes, ou de configurer des macros consistant en une suite de commandes. Par exemple, ici le raccourci `Ctrl+N` crée un nouveau fichier TypeScript et insère un template de classe :
 
 ```json
 {
