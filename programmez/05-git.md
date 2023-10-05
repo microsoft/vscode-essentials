@@ -22,7 +22,7 @@ L'état de suivi apparaît à droite du nom du fichier : M pour _modifié_, D po
 
 Valider (_commit_) des modifications dans Git nécessite d'ajouter un message descriptif qui explique la nature de chaque modification. Vous pouvez l'ajouter dans le champ _Messages_ en haut de la barre latérale. Une fois votre message ajouté, cliquez sur **Validation**, et voilà ! Vos modifications sont maintenant stockés dans un commit.
 
-Pour partager ce commit avec vos collègues, il vous faut l'envoyer sur votre dépôt distant. La commande _push_ est accessible depuis plusieurs endroits : dans la barre de statut, à droite du nom de la branche courante, dans la palette de commande `Git : push`, ou encore dans le menu contextuel de la barre latérale, accessible sur l'icône **...** en haut à droite.
+Pour partager ce commit avec vos collègues, il vous faut l'envoyer sur votre dépôt distant. La commande _push_ est accessible depuis plusieurs endroits : dans la barre d'état, à droite du nom de la branche courante, dans la palette de commande `Git : push`, ou encore dans le menu contextuel de la barre latérale, accessible sur l'icône **...** en haut à droite.
 
 Récupérer les commits distants se fait aussi simplement à l'aide de la commande `Tirer (pull)`, accessibles aux mêmes endroits que la commande push.
 
@@ -30,7 +30,7 @@ VS Code vous proposera également une commande `Synchroniser les changements` qu
 
 ### Branches et tags
 
-Vous pouvez gérer les branches et les tags depuis VS Code simplement. Tout d'abord via la barre de statut, la branche courante est affichée en permanence. Il suffit de cliquer dessus afin d'explorer la liste des branches, distantes et locales, et de passer sur une autre branche.
+Vous pouvez gérer les branches et les tags depuis VS Code simplement. Tout d'abord via la barre d'état, la branche courante est affichée en permanence. Il suffit de cliquer dessus afin d'explorer la liste des branches, distantes et locales, et de passer sur une autre branche.
 
 Lorsque vous êtes sur le point de faire une release de votre projet, il est courant d'utiliser des tags pour "marquer" ce moment dans le temps, ou plus exactement le commit correspondant à cette livraison. Le moyen le plus simple pour créer un _tag_ est d'exécuter la commande `Git : Créer une balise` dans la palette. N'oubliez pas de pousser vos changements sur le dépôt distant afin que les tags soient accessibles par toute l'équipe.
 

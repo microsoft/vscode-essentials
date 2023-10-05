@@ -65,7 +65,7 @@ Il y a beaucoup d'autres raccourcis clavier disponibles, et ils peuvent vraiment
 
 La fenêtre d'édition regorge d'outils pour vous aider au quotidien. L'éditeur en lui-même intègre de base de nombreuses fonctionnalités :
 
-- **Une coloration syntaxique** avec de très nombreux langages supportés. Vous aurez peut être besoin d'installer une extension pour certains langages, ou de choisir le bon langage (à droite dans la barre de status, ou avec la commande `Changer le mode de langage` dans la palette de commandes).
+- **Une coloration syntaxique** avec de très nombreux langages supportés. Vous aurez peut être besoin d'installer une extension pour certains langages, ou de choisir le bon langage (à droite dans la barre d'état, ou avec la commande `Changer le mode de langage` dans la palette de commandes).
 - **Les lignes d'indentation verticales** et **la coloration des accolades** pour vous aider à comprende les niveaux de hierarchie de votre code.
 - **L'autocomplétion** de code.
 

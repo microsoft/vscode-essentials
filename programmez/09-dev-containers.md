@@ -10,7 +10,7 @@ Pour l'utiliser, il faut d'abord installer Docker sur votre machine. Ensuite apr
 
 ![Icône Dev Containers](./images/dev-containers-icon.png)
 
-Une fois l'environnement créé, sélectionnez `Rouvrir dans le conteneur` dans la fenêtre de notification qui s'affiche. Sinon, vous pouvez également cliquer sur l'icône en bas à gauche et sélectionner cette option dans le menu. VS Code va recharger la fenêtre de votre projet et construire le conteneur, ce qui peut prendre quelques minutes au premier lancement. Par la suite, le chargement sera quasi-instantané. Une fois terminé, vous pourrez constater que VS Code est connecté à votre conteneur de dev via la barre de statut.
+Une fois l'environnement créé, sélectionnez `Rouvrir dans le conteneur` dans la fenêtre de notification qui s'affiche. Sinon, vous pouvez également cliquer sur l'icône en bas à gauche et sélectionner cette option dans le menu. VS Code va recharger la fenêtre de votre projet et construire le conteneur, ce qui peut prendre quelques minutes au premier lancement. Par la suite, le chargement sera quasi-instantané. Une fois terminé, vous pourrez constater que VS Code est connecté à votre conteneur de dev via la barre d'état.
 
 ![VS Code connecté à un conteneur de dev Node.js](./images/dev-container-connected.png)
 
