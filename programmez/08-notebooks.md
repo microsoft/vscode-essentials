@@ -4,13 +4,13 @@ Nous avons vu comment VS Code pouvait être utilisé pour de nombreux usages au-
 
 ### Jupyter Notebooks
 
-Le type de notebooks le plus répandu est sans conteste les **Jupyter notebooks**. Ils sont destinés à exécuter principalement du code python, bien qu'il soit possible d'exécuter d'autres langages via des [kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+Les notebooks les plus répandus sont sans conteste les **Jupyter notebooks**. Ils sont destinés à exécuter principalement du code python, bien qu'il soit possible d'exécuter d'autres langages via des [kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
 
 Pour commencer, il faut tout d'abord installer l'extension  [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter). Celle-ci vous permettra de créer, visualiser et d'exécuter des notebooks Jupyter. La visualisation fonctionne même dans la version web de VS Code, et l'exécution dans GitHub Codespaces.
 
-Les notebooks Jupyter ont besoin d'être connectés à un _kernel_, un moteur d'exécution, afin de pouvoir exécuter le code contenu dans les cellules. Il sera donc nécessaire d'installer python et le kernel python. Ce kernel s'installe simplement à l'aide de [pip](https://pypi.org/project/jupyter/) - le package manager de python - via la commande `pip install jupyter`. L'installation de python peut se faire directement via le Microsoft store si vous êtes sous Windows, ou via différents moyens sur les autres systèmes d'exploitation. [Anaconda](https://www.anaconda.com/products/individual) est une distribution qui est souvent utilisée pour sa simplicité. 
+Les notebooks Jupyter ont besoin d'être connectés à un _kernel_, un moteur d'exécution, afin de pouvoir exécuter le code contenu dans les cellules. Il sera donc nécessaire d'installer Python et le kernel Python. Ce kernel s'installe simplement à l'aide de [pip](https://pypi.org/project/jupyter/) - le package manager de Python - via la commande `pip install jupyter`. L'installation de Python peut se faire directement via le Microsoft Store si vous êtes sous Windows, ou via différents moyens sur les autres systèmes d'exploitation. [Anaconda](https://www.anaconda.com/products/individual) est une distribution qui est souvent utilisée pour sa simplicité. 
 
-Pour créer un notebook, il suffit d'utiliser la barre de commandes (`Ctrl+Shift+P`) et de taper `Jupyter: Nouveau Jupyter notebook`. Vous pourrez alors ajouter simplement de nouvelles cellules de type code ou de type documentation (appelées _Marquage_), et bien évidemment exécuter les cellules soit via le raccourci clavier `Ctrl+Entrée`, soit via l'icône _Exécuter la cellule_ ![Exécuter la cellule](./images/08-execute-cell.png) situé en haut à gauche de la cellule.
+Pour créer un notebook, il suffit d'utiliser la palette de commandes et de taper `Jupyter: Nouveau Jupyter notebook`. Vous pourrez alors ajouter simplement de nouvelles cellules de type code ou de type documentation (appelées _Marquage_), et bien évidemment exécuter les cellules soit via le raccourci clavier `Ctrl+Entrée`, soit via l'icône _Exécuter la cellule_ ![Exécuter la cellule](./images/08-execute-cell.png) situé en haut à gauche de la cellule.
 
 ![Un notebook Jupyter](./images/08-jupyter.png)
 
@@ -18,7 +18,7 @@ Qui dit "exécution de code" dit "débogage". Les notebooks jupyter vous accompa
 
 ![Un notebook Jupyter en cours de débogage](./images/08-debug.png)
 
-Si VS Code est capable d'utiliser des kernels installés localement, pour certains scénarios - notamment en data science - vous aurez peut-être besoin de partager un serveur - plus puissant - entre plusieurs utilisateurs. Cela est possible avec [JupyterHub](https://jupyter.org/hub). Vous pouvez installer [JupyterHub](https://tljh.jupyter.org/en/latest/index.html) simplement sur un serveur Linux, et l'extension [JupyterHub](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-hub) afin d'exécuter vos notebooks sur ce serveur.
+Si VS Code est capable d'utiliser des kernels installés localement, pour certains scénarios - notamment en data science - vous aurez peut-être besoin de partager un serveur plus puissant entre plusieurs utilisateurs. Cela est possible avec [JupyterHub](https://jupyter.org/hub). Vous pouvez installer [JupyterHub](https://tljh.jupyter.org/en/latest/index.html) simplement sur un serveur Linux, et l'extension [JupyterHub](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-hub) afin d'exécuter vos notebooks sur ce serveur.
 
 ### Polyglot notebooks
 
@@ -26,7 +26,7 @@ Les notebooks Jupyter sont un outil formidable pour de nombreux scénarios. Ils 
 
 C'est là qu'interviennent les [**Polyglot notebooks**](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode). Ce type de notebook permet d'exécuter du code dans différents langages de programmation au sein d'un même notebook. Les polyglot notebooks supportent les langages suivants : C#, F#, Javascript, PowerShell, SQL, KQL, HTML, Mermaid, R et bien évidemment Python.
 
-Son utilisation est très simple : il suffit d'installer l'extension [**Polyglot notebooks**](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), ainsi que le SDK .NET. Une fois installé, vous retrouverez les fonctionnalités de notebooks jupyter avec deux différences majeures. 
+Son utilisation est très simple : il suffit d'installer l'extension [**Polyglot notebooks**](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode), ainsi que le SDK .NET. Une fois installé, vous retrouverez les fonctionnalités de notebooks Jupyter avec deux différences majeures. 
 
 Tout d'abord, vous pourrez changer le langage de chacune des cellules via le sélecteur de langages situé en bas à droite de chacune des cellules. C'est l'objectif des polyglot notebooks. Mais leur secret le mieux gardé n'est pas là : vous pouvez **partager des données entre les différents langages** ! vous pouvez par exemple utiliser C# pour requêter une API web, utiliser le résultat pour construire une requête SQL et transmettre le tableau de résultats de la requête à JavaScript afin de visualiser le résultat. 
 
@@ -43,7 +43,7 @@ Si vous êtes développeuse ou développeur .NET, il y a de nombreux autres secr
 
 ### GitHub Issues Notebooks
 
-Parce qu'il n'y a pas que le code dans la vie, il existe l'extension [**GitHub Issues Notebooks**](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-github-issue-notebooks). Comme son nom le suggère, cette extension permet d'écrire des requêtes GitHub Issues (et pull request) sous forme de notebooks. Il vous suffit d'installer l'[extension éponyme}(https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-github-issue-notebooks) dans VS Code ou sur vscode.dev afin de pouvoir commencer à écrire vos requêtes. La syntaxe est identique à celle utilisée sur le site web de GitHub à une exception près: vous pouvez créer des variables. Dans l'exemple ci-après, c'est le nom du dépôt qui est mis en variable, mais cela peut être un label ou un milestione.
+Parce qu'il n'y a pas que le code dans la vie, il existe l'extension [**GitHub Issues Notebooks**](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-github-issue-notebooks). Comme son nom le suggère, cette extension permet d'écrire des requêtes GitHub Issues (et pull request) sous forme de notebooks. Il vous suffit d'installer l'[extension éponyme}(https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-github-issue-notebooks) dans VS Code ou sur vscode.dev afin de pouvoir commencer à écrire vos requêtes. La syntaxe est identique à celle utilisée sur le site web de GitHub à une exception près : vous pouvez créer des variables. Dans l'exemple ci-après, c'est le nom du dépôt qui est mis en variable, mais cela peut être un label ou une milestone.
 
 ```
 $repo=repo:jhipster/generator-jhipster
