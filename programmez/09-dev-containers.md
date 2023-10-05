@@ -20,7 +20,7 @@ Vous pouvez maintenant ouvrir un terminal et utiliser votre nouvel environnement
 
 L'environnement de développement est défini dans le fichier `.devcontainer/devcontainer.json`. Ce fichier est généré lors de la création de l'environnement, mais vous pouvez le modifier pour personnaliser votre environnement. Par exemple, vous pouvez ajouter des extensions VS Code, installer des outils supplémentaires, ou encore définir des commandes à lancer automatique au démarrage du conteneur.
 
-Par défaut, le conteneur utilise une image Docker pré-construite, mais vous pouvez également définir votre propre image personnalisée. Il suffit de créer un fichier `Dockerfile` dans le dossier `.devcontainer` et de remplacer la propriété `image` par:
+Par défaut, le conteneur utilise une image Docker pré-construite, mais vous pouvez également définir votre propre image personnalisée. Il suffit de créer un fichier `Dockerfile` dans le dossier `.devcontainer` et de remplacer la propriété `image` par :
 
 ```
 "build": {

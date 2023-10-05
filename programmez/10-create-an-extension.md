@@ -64,6 +64,6 @@ Maintenant, appuyez sur `F5` pour tester votre extension. Une nouvelle fenêtre 
 
 ![Notre extension en action](./images/extension-run.png)
 
-> **Note**: Par mesure de sécurité, VS Code vous demande de confirmer l'ouverture lorsqu'il ne reconnait pas le domaine d'un site web, comme c'est le cas ici. Vous pouvez désactiver cette demande de confirmation en ajoutant le domaine à la liste des sites de confiance en choisissant l'option `Configurer les domaines approuvé` dans la fenêtre de confirmation.
+> **Note** : Par mesure de sécurité, VS Code vous demande de confirmer l'ouverture lorsqu'il ne reconnait pas le domaine d'un site web, comme c'est le cas ici. Vous pouvez désactiver cette demande de confirmation en ajoutant le domaine à la liste des sites de confiance en choisissant l'option `Configurer les domaines approuvé` dans la fenêtre de confirmation.
 
 Bravo, vous avez créé votre première extension pour VS Code! Bien sûr, il est possible de faire beaucoup plus avec les extensions, comme ajouter des menus, des barres d'outils, des snippets, etc. Vous pouvez retrouver la documentation complète ainsi que des guides et exemples à l'adresse https://code.visualstudio.com/api.

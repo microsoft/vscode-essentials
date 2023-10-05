@@ -4,8 +4,8 @@ VS Code dispose d'un support intégré de _Markdown_, qui permet de formatter de
 
 ### Documentation et schémas
 
-Markdown est un langage de choix pour la documentation de vos projets, mais qu'en est-il si vous avez besoin de créer des diagrammes et schémas pour mieux expliquer votre code?
-Pas de soucis, il y existe plein d'extensions pour cela!
+Markdown est un langage de choix pour la documentation de vos projets, mais qu'en est-il si vous avez besoin de créer des diagrammes et schémas pour mieux expliquer votre code ?
+Pas de soucis, il y existe plein d'extensions pour cela !
 
 Pour tout ce qui est diagrammes, qu'ils soient de flux, de séquence, de classe, de Gantt et bien d'autres encore, l'extension **Markdown Preview Mermaid Support** est faite pour vous. Celle-ci vous permettra d'utiliser la syntaxe de _Mermaid_ (https://mermaid.js.org) pour inclure et visualiser vos diagrammes directement dans vos documents Markdown. Vos diagrammes sont définis à l'aide d'une syntaxe textuelles dans des blocs de code classiques, et seront affichés dans la prévisualisation de Markdown.
 

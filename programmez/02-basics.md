@@ -1,11 +1,11 @@
 ## Fonctionnement de base
 
-<!-- 
+<!--
 ref: https://code.visualstudio.com/docs/getstarted/userinterface
 
 -->
 
-Nous allons maintenant voir les bases du fonctionnement et de l'interface de Visual Studio Code. 
+Nous allons maintenant voir les bases du fonctionnement et de l'interface de Visual Studio Code.
 
 ![](./images/02-vscode-ui.png)
 
@@ -25,26 +25,25 @@ Lorsque vous ouvrez VS Code pour la première fois, voici les éléments clés d
 
 ### Quoi ouvrir ?
 
-Vous pouvez lancer VS Code sans ouvrir quoi que ce soit, mais il vous faudra bien ouvrir quelque chose pour commencer à travailler. 
+Vous pouvez lancer VS Code sans ouvrir quoi que ce soit, mais il vous faudra bien ouvrir quelque chose pour commencer à travailler.
 
-L'usage le plus courant est très certainement d'**ouvrir un dossier**. Vous pourrez ainsi accéder à l'arborescence de fichiers depuis la barre latérale. Vous pouvez également ouvrir ou créer un nouveau fichier. 
+L'usage le plus courant est très certainement d'**ouvrir un dossier**. Vous pourrez ainsi accéder à l'arborescence de fichiers depuis la barre latérale. Vous pouvez également ouvrir ou créer un nouveau fichier.
 
-> **Astuce**: Vous pouvez ouvrir un fichier ou un dossier dans VS Code depuis un terminal simplement en utilisant la commande `code monficher.txt`.
+> **Astuce** : Vous pouvez ouvrir un fichier ou un dossier dans VS Code depuis un terminal simplement en utilisant la commande `code monficher.txt`.
 
 VS Code vous permet également d'ouvrir directement un dépôt Git - en le clonant localement -, de vous connecter à un serveur distant soit via SSH soit via VS Code "Tunnels".
 
-Si vous travaillez sur un projet dont le code se situe dans plusieurs dossiers, vous pouvez créer un **Espace de travail**. Cela vous permet de créer une arborescence "virtuelle" que vous pouvez ouvrir simplement avec VS Code.
-
+Si vous travaillez sur un projet dont le code se situe dans plusieurs dossiers, vous pouvez créer un _espace de travail_. Cela vous permet de créer une arborescence "virtuelle" que vous pouvez ouvrir simplement avec VS Code.
 
 ### La palette de commandes
 
 La palette de commandes est un outil très puissant dans VS Code. Elle vous permet d'accéder à de nombreuses fonctionnalités et commandes directement avec le clavier.
 
-Pour ouvrir la palette de commandes, vous pouvez utiliser le raccourci clavier `Ctrl+Shift+P` (ou `Cmd+Shift+P` sur Mac). Une fois ouverte, vous pouvez simplement commencer à taper pour rechercher une commande par son nom. Les commandes les plus utilisées apparaîtront en haut.
+Pour ouvrir la palette de commandes, vous pouvez utiliser le raccourci clavier `Ctrl+Maj+P` (ou `Cmd+Maj+P` sur Mac). Une fois ouverte, vous pouvez simplement commencer à taper pour rechercher une commande par son nom. Les commandes les plus utilisées apparaîtront en haut.
 
 C'est une façon efficace de naviguer dans VS Code sans avoir à utiliser la souris, et vous découvrirez probablement des fonctionnalités que vous n'aviez pas remarquées auparavant.
 
-> **Astuce**: Vous avez besoin de concentration ? Utilisez la commande _Afficher: Activer/désactiver le mode zen_ pour masquer tout ce qui est superflu et vous concentrer sur votre code. Il ne vous manque plus qu'un accompagnement musical pour être dans la zone. 
+> **Astuce** : Vous avez besoin de concentration ? Utilisez la commande _Afficher: Activer/désactiver le mode zen_ pour masquer tout ce qui est superflu et vous concentrer sur votre code. Il ne vous manque plus qu'un accompagnement musical pour être dans la zone.
 
 ### Les raccourcis clavier
 
@@ -54,18 +53,19 @@ Les raccourcis clavier sont essentiels pour une utilisation efficace de VS Code.
 - `Ctrl+B` : Afficher/Masquer la barre latérale.
 - `Ctrl+/` : Commenter/De-commenter une ligne.
 - `Ctrl+D` : Sélectionner la prochaine occurrence du mot sous le curseur.
-- `Ctrl+Shift+K` : Supprimer la ligne actuelle.
+- `Ctrl+Maj+K` : Supprimer la ligne actuelle.
 - `Alt+↑` ou `Alt+↓` : Déplacer la ligne courante vers le haut ou vers le bas.
 - `Ctrl+Space` : Activer la complétion automatique.
 
-Il y a beaucoup d'autres raccourcis clavier disponibles, et ils peuvent vraiment accélérer votre flux de travail. Vous pouvez toujours ouvrir la liste complète des raccourcis clavier en utilisant le menu `Aide` > `Raccourcis clavier`.
+Il y a beaucoup d'autres raccourcis clavier disponibles, et ils peuvent vraiment accélérer votre flux de travail.
 
-> **Astuce**: Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant _Aide: Référence des raccourcis clavier_ dans la palette de commande.
+> **Astuce** : Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant _Aide: Référence des raccourcis clavier_ dans la palette de commande.
 
 ### Zoom sur la fenêtre d'édition
 
-La fenêtre d'édition regorge d'outils pour vous aider au quotidien. L'éditeur en lui-même intègre de base de nombreuses fonctionnalités: 
-- **Une coloration syntaxique** avec de très nombreux langages supportés. Vous aurez peut être besoin d'installer une extension pour certains langages, ou de choisir le bon langage (à droite dans la barre de status, ou avec la commande _Changer le mode de langage_ dans la palette de commandes).
+La fenêtre d'édition regorge d'outils pour vous aider au quotidien. L'éditeur en lui-même intègre de base de nombreuses fonctionnalités :
+
+- **Une coloration syntaxique** avec de très nombreux langages supportés. Vous aurez peut être besoin d'installer une extension pour certains langages, ou de choisir le bon langage (à droite dans la barre de status, ou avec la commande `Changer le mode de langage` dans la palette de commandes).
 - **Les lignes d'indentation verticales** et **la coloration des accolades** pour vous aider à comprende les niveaux de hierarchie de votre code.
 - **L'autocomplétion** de code.
 
@@ -73,6 +73,6 @@ En plus de ces fonctions, vous aurez plusieurs éléments en périphérique de v
 
 ![](./images/02-editeur.png)
 
-Tout à droite, vous trouverez la **minimap** : une représentation visuelle de votre code. Cette _carte_ sera très utile lors que vos fichiers contiennent de nombreuses lignes. Juste au dessus, vous trouverez une zone d'**actions rapides**. L'Icône sur l'image précédente vous permet de découper votre éditeur en deux, vous permettant ainsi de travailler deux fichiers en parallèle. En fonction des langages et des extensions, vous pouvez avoir d'autres actions. Par exemple, sur les fichiers Markdown, il est possible d'avoir une prévisualisation du fichier.
+Tout à droite, vous trouverez la **minimap** : une représentation visuelle de votre code. Cette carte sera très utile lors que vos fichiers contiennent de nombreuses lignes. Juste au dessus, vous trouverez une zone d'**actions rapides**. L'Icône sur l'image précédente vous permet de découper votre éditeur en deux, vous permettant ainsi de travailler deux fichiers en parallèle. En fonction des langages et des extensions, vous pouvez avoir d'autres actions. Par exemple, sur les fichiers Markdown, il est possible d'avoir une prévisualisation du fichier.
 
-La zone d'éditeur contient également d'autres éléments pour vous aider à naviguer dans votre code. Tout en haut de l'éditeur, vous trouverez un navigateur vous permettant de comprendre où se situe le fichier courant dans l'arborescence de votre projet. En plus des numéros de ligne, vous trouverez sur le côté gauche des **indicateurs git** qui vous permettent en un clin d'oeil de repérer les lignes de code que vous avez modifiés depuis l'ouverture du fichier.n Ces indicateurs sont également présent dans la nonomap et dans l'ascenseur situé tout à droite.
+La zone d'éditeur contient également d'autres éléments pour vous aider à naviguer dans votre code. Tout en haut de l'éditeur, vous trouverez un navigateur vous permettant de comprendre où se situe le fichier courant dans l'arborescence de votre projet. En plus des numéros de ligne, vous trouverez sur le côté gauche des **indicateurs git** qui vous permettent en un clin d'oeil de repérer les lignes de code que vous avez modifiés depuis l'ouverture du fichier. Ces indicateurs sont également présent dans la nonomap et dans l'ascenseur situé tout à droite.

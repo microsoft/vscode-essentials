@@ -26,7 +26,7 @@ Il est cependant possible de choisir un thème différent pour vos projets en cr
 
 Si vous voulez changer une ou plusieurs couleurs du thème courant, vous pouvez le faire en modifiant le fichier `settings.json` de vos préférences utilisateur. Pour cela, ouvrez la palette de commandes et cherchez l'option `Préférences: Ouvrir les paramètres (JSON)`.
 
-Les propriétés `workbench.colorCustomizations` et `editor.tokenColorCustomizations` vous permettent de modifier respectivement les couleurs de l'interface et de l'éditeur de code. Par exemple, vous pouvez changer la couleur de fond de la barre latérale avec la propriété `activityBar.background`:
+Les propriétés `workbench.colorCustomizations` et `editor.tokenColorCustomizations` vous permettent de modifier respectivement les couleurs de l'interface et de l'éditeur de code. Par exemple, vous pouvez changer la couleur de fond de la barre latérale avec la propriété `activityBar.background` :
 
 ```
 "workbench.colorCustomizations": {
@@ -36,11 +36,11 @@ Les propriétés `workbench.colorCustomizations` et `editor.tokenColorCustomizat
 
 L'autocomplétion (`Ctrl+Espace`) vous permettra de voir toutes les valeurs disponibles pour ces propriétés.
 
-Il est également possible d'apporter des changements au thème courant via des extensions. Par exemple l'extension `background` du marketplace permet d'ajouter une image de fond à l'éditeur, et l'extension `Peacock` vous permet de changer la couleur de chaque nouvelle instance de VS Code pour mieux les différencier.
+Il est également possible d'apporter des changements au thème courant via des extensions. Par exemple l'extension **background** du marketplace permet d'ajouter une image de fond à l'éditeur, et l'extension **Peacock** vous permet de changer la couleur de chaque nouvelle instance de VS Code pour mieux les différencier.
 
 ### Configuration des paramètres
 
-L'ensemble des paramètres de VS Code ainsi que des extensions installées sont stockés dans un fichier JSON, le fichier `settings.json` vu précédemment. Vous pouvez y accéder en ouvrant la palette de commandes et en cherchant l'option `Préférences: Ouvrir les paramètres (JSON)`, ou les changer via l'interface graphique avec `Préférences: Ouvrir les paramètres (UI)`. Il existe deux types de paramètres:
+L'ensemble des paramètres de VS Code ainsi que des extensions installées sont stockés dans un fichier JSON, le fichier `settings.json` vu précédemment. Vous pouvez y accéder en ouvrant la palette de commandes et en cherchant l'option `Préférences: Ouvrir les paramètres (JSON)`, ou les changer via l'interface graphique avec `Préférences: Ouvrir les paramètres (UI)`. Il existe deux types de paramètres :
 
 - Les paramètres utilisateur, qui s'appliquent à tous les projets
 - Les paramètres d'espace de travail, qui s'appliquent uniquement au projet courant. Ces préférences sont stockées dans un fichier `.vscode/settings.json` à la racine du projet, et peuvent être partagées avec les autres membres de l'équipe.
@@ -51,7 +51,7 @@ Il est également possible de synchronizer vos paramètres entre plusieurs machi
 
 Il suffit alors de suivre le même procédé sur vos autres machines pour retrouver votre configuration.
 
-> **Astuce**: il possible d'ignorer la synchronisation de certains paramètres ou extensions avec les propriétés suivantes de votre fichier `settings.json`:
+> **Astuce** : il possible d'ignorer la synchronisation de certains paramètres ou extensions avec les propriétés suivantes de votre fichier `settings.json` :
 >
 > ```
 > "settingsSync.ignoredExtensions": [ ],
@@ -63,8 +63,6 @@ A noter également que le dossier `.vscode` peut contenir d'autres fichiers de c
 ### Raccourcis clavier
 
 Pour être efficace quand on code, rien de tel que de savoir utiliser les raccourcis clavier. VS Code en propose des centaines, et vous pouvez modifier ceux existants ou en créer de nouveaux. Pour cela, ouvrez la palette de commandes et cherchez l'option `Préférences: Ouvrir les raccourcis clavier`. Vous verrez alors s'afficher la longue liste des raccourcis clavier déjà configurés, mais également l'ensemble des commandes de l'éditeur et des extensions installées pour lesquelles vous pouvez créer un raccourci.
-
-> **Astuce**: Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en sélectionnant `Aide: Référence des raccourcis clavier` dans la palette de commande.
 
 De manière similaire aux paramètres utilisateur, les raccourcis claviers sont stockés dans un fichier `keybindings.json` qu'il est possible de modifier directement. Si vous êtes à l'aise avec le JSON, il est même possible d'ajouter des conditions pour que le raccourci ne soit actif que dans certains contextes, ou de configurer des macros consistant en une suite de commandes. Par exemple, ici le raccourci `Ctrl+N` crée un nouveau fichier TypeScript et insère un template de classe:
 
@@ -94,7 +92,7 @@ De manière similaire aux paramètres utilisateur, les raccourcis claviers sont 
 
 ### Modification de l'interface
 
-Au delà du thème et des couleurs, il est possible de modifier l'interface de VS Code en profondeur pour l'adapter à vos besoins. Dans la barre de titre, vous dispose de plusieurs icônes vous permettant de masquer les principaux panneaux de l'interface, mais également de personnaliser plus en détail l'interface en sélectionnant celle de droite:
+Au delà du thème et des couleurs, il est possible de modifier l'interface de VS Code en profondeur pour l'adapter à vos besoins. Dans la barre de titre, vous dispose de plusieurs icônes vous permettant de masquer les principaux panneaux de l'interface, mais également de personnaliser plus en détail l'interface en sélectionnant celle de droite :
 
 ![Personnalisation de la disposition](./images/customize-layout.png)
 
@@ -102,7 +100,7 @@ L'agencement de l'interface aussi être complètement modifié en glissant-dépo
 
 ![Exemple de disposition personalisée](./images/vscode-custom.png)
 
-> **Astuce**: Si vous souhaitez vous concentrer temporairement sur votre code uniquement, et eviter toute distraction, alors le mode _zen_ est fait pour vous. Il suffit de l'activer via la palette de commande, et VS Code passera en plein écran et masquera alors tous les éléments de l'interface pour ne laisser que l'éditeur de code.
+> **Astuce** : Si vous souhaitez vous concentrer temporairement sur votre code uniquement, et eviter toute distraction, alors le mode _zen_ est fait pour vous. Il suffit de l'activer via la palette de commande, et VS Code passera en plein écran et masquera alors tous les éléments de l'interface pour ne laisser que l'éditeur de code.
 
 ### Utilisation des profils
 

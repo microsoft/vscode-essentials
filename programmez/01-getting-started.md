@@ -12,7 +12,7 @@ La plupart du temps, vous installerez VS Code sur votre poste de travail princip
 winget install Microsoft.VisualStudioCode
 ```
 
-> **Astuce**: WinGet est disponible par défaut dans certaines versions de Windows 11. Vous pouvez en apprendre plus sur WinGet dans la documentation officielle: https://learn.microsoft.com/windows/package-manager/winget/
+> **Astuce** : WinGet est disponible par défaut dans certaines versions de Windows 11. Vous pouvez en apprendre plus sur WinGet dans la documentation officielle: https://learn.microsoft.com/windows/package-manager/winget/
 
 **Linux**, vous pouvez installer VS Code depuis un package. Vous trouverez tous les formats de package (Debian, RPM, etc.) pour vos besoins sur la page de téléchargement [code.visualstudio.com](https://code.visualstudio.com). L'exemple suivant montre comment installer la version x64 sur un OS Debian ou Ubuntu.
 
@@ -21,17 +21,21 @@ wget -O vscode.deb https://code.visualstudio.com/sha/download?build=stable&os=li
 sudo apt install ./vscode.deb
 ```
 
-> **En savoir plus**: VS Code est également disponible sur **Snaps**, Le store d'applications pour Linux. Si vous ne connaissez pas Snaps, vous pouvez en découvrir plus sur le site officiel : https://snapcraft.io/docs/installing-snapd.
+> **En savoir plus** : VS Code est également disponible sur **Snaps**, Le store d'applications pour Linux. Si vous ne connaissez pas Snaps, vous pouvez en découvrir plus sur le site officiel : https://snapcraft.io/docs/installing-snapd.
 
-**Mac**: Vous pouvez télécharger l'application depuis le site officiel. Il vous suffit alors de glisser-déposer l'application dans le dossier **Applications** de votre Mac. Si vous êtes utilisateurs d'HomeBrew (https://brew.sh), vous pouvez installer VS Code avec la commande `brew install --cask visual-studio-code`.
+**Mac** : Vous pouvez télécharger l'application depuis le site officiel. Il vous suffit alors de glisser-déposer l'application dans le dossier **Applications** de votre Mac. Si vous êtes utilisateur d'HomeBrew (https://brew.sh), vous pouvez installer VS Code avec la commande:
+
+```bash
+brew install --cask visual-studio-code
+```
 
 ### Une utilisation nomade
 
 Vous souvenez-vous des "portable apps" ? Ces applications exécutées depuis une clé USB, sans installation ? Même si cette tendance a décliné, vous pouvez toujours être le super-héros du code sans être l'administrateur de votre poste. Il suffit de télécharger la version "zip" (ou "tar.gz") de VS Code. Vous pouvez ensuite simplement exécuter `code.exe` (ou son équivalent en fonction de votre système d'exploitation) pour travailler avec VS Code.
 
-Si vous utilisez cette version de manière régulière, vous voudrez peut-être conserver vos paramètres entre différentes sessions. Dans ce cas, il vous faudra créer un dossier `data` (ou `code-portable-data`) au même niveau que l'exécutable VS Code. 
+Si vous utilisez cette version de manière régulière, vous voudrez peut-être conserver vos paramètres entre différentes sessions. Dans ce cas, il vous faudra créer un dossier `data` (ou `code-portable-data`) au même niveau que l'exécutable VS Code.
 
-> **En savoir plus**: Vous trouverez plus d'informations sur la version portable de VS Code sur le site officiel : https://code.visualstudio.com/docs/editor/portable
+> **En savoir plus** : Vous trouverez plus d'informations sur la version portable de VS Code sur le site officiel : https://code.visualstudio.com/docs/editor/portable
 
 ### Utiliser VS Code sans l'installer
 
@@ -43,9 +47,9 @@ Rendez-vous simplement sur le site [vscode.dev](https://vscode.dev) et vous ête
 
 Cette version de VS Code, tournant directement dans votre navigateur, peut faire des merveilles. Elle peut ouvrir un fichier de votre ordinateur, après votre autorisation bien sûr, ou accéder à un dépôt Git.
 
-> **Le saviez-vous ?** Si vous utilisez GitHub, vous pouvez utiliser l'éditeur "github.dev". Il suffit pour cela d'appuyer sur la touche `.` sur n'importe quel dépôt GitHub pour lancer l'éditeur. Vous pouvez également vous rendre sur [github.dev](https://github.dev) 
+> **Le saviez-vous ?** Si vous utilisez GitHub, vous pouvez utiliser l'éditeur "github.dev". Il suffit pour cela d'appuyer sur la touche `.` sur n'importe quel dépôt GitHub pour lancer l'éditeur. Vous pouvez également vous rendre sur [github.dev](https://github.dev)
 
-Quelques limitations existent sur cette version web. Par exemple, le terminal intégré ou la compilation de code sont absents. Certaines extensions - telles que Live Share - sont fonctionnelles, d'autres non. 
+Quelques limitations existent sur cette version web. Par exemple, le terminal intégré ou la compilation de code sont absents. Certaines extensions - telles que Live Share - sont fonctionnelles, d'autres non.
 
 ### VS Code sur vos serveurs
 
@@ -57,13 +61,13 @@ L'extension "Remote - SSH" vous permet de vous connecter à un serveur distant v
 
 Il existe cependant des scénarios pour lesquels vous n'avez pas un accès direct à SSH: poste derrière un pare-feu, poste Windows, etc... Il vous est alors possible d'utiliser **VS Code Server**. Ce mode de VS Code vous permet de créer un tunnel sécurisé entre votre poste et le poste distant. La connexion entre les deux machines est sécurisée via votre compte GitHub. Vous ne pouvez donc pas vous servir de cet outil pour partager votre machine à quelqu'un d'autre.
 
-> **Important**: Bien que VS Code Server n'expose pas directement votre serveur sur Internet, cela crée un point d'entrée sur vos machines. Avant de l'utiliser sur ces postes tels que des serveurs de production, assurez-vous de bien comprendre les implications sur votre _modèle de menace_ (Threat Model).
+> **Important** : Bien que VS Code Server n'expose pas directement votre serveur sur Internet, cela crée un point d'entrée sur vos machines. Avant de l'utiliser sur ces postes tels que des serveurs de production, assurez-vous de bien comprendre les implications sur votre _modèle de menace_ (Threat Model).
 
-Pour commencer, installez **VS Code CLI** sur le poste cible, lancez la commande magique _code tunnel_, et identifiez-vous avec GitHub. Si vous êtes sur un poste avec une interface visuelle (comme votre PC fixe), activez le tunnel via le **menu de comptes**.
+Pour commencer, installez **VS Code CLI** sur le poste cible, lancez la commande magique `code tunnel`, et identifiez-vous avec GitHub. Si vous êtes sur un poste avec une interface visuelle (comme votre PC fixe), activez le tunnel via le **menu de comptes**.
 
 ![](./images/01-tunnel.png)
 
-Une fois le tunnel activé, vous pouvez accéder à votre poste cible simplement depuis vscode.dev. Vous pouvez également y accéder depuis un autre poste en utilisant l'extension "Remote - Tunnels".
+Une fois le tunnel activé, vous pouvez accéder à votre poste cible simplement depuis vscode.dev. Vous pouvez également y accéder depuis un autre poste en utilisant l'extension **Remote - Tunnels**.
 
 ### Mettre à jour VS Code
 
