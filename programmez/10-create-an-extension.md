@@ -1,6 +1,6 @@
 ## Créez votre première extension
 
-Maintenant que vous connaissez VS Code sur le bout des doigts, pour aller encore plus loin dans la personnalisation vous pouvez coder votre extension. Si une fonctionnalité vous manque, ou si vous souhaitez simplement en apprendre plus sur le fonctionnement interne de VS Code, il est possible de créer sa propre extension et la publier sur le marketplace pour en faire profiter tout le monde.
+Maintenant que vous connaissez VS Code sur le bout des doigts, pour aller encore plus loin dans la personnalisation vous pouvez coder votre extension. Si une fonctionnalité vous manque, ou si vous souhaitez simplement en apprendre plus sur le fonctionnement interne de VS Code, il est possible de créer sa propre extension et la publier sur la marketplace pour en faire profiter tout le monde.
 
 VS Code lui-même est codé en _TypeScript_, et utilise le framework Electron qui est basé sur _Node.js_ et Chromium. Vous avez ainsi besoin de Node.js pour développer votre extension. Après avoir installé Node.js sur votre machine, il vous faut ensuite installer le générateur d'extensions de VS Code:
 
@@ -8,15 +8,15 @@ VS Code lui-même est codé en _TypeScript_, et utilise le framework Electron qu
 npm install -g yo generator-code
 ```
 
-Créez un nouveau projet d'extension en tapant `yo code` dans un terminal. Vous avez alors le choix de créer differents types d'extensions:
+Créez un nouveau projet d'extension en tapant `yo code` dans un terminal. Vous avez alors le choix de créer différents types d'extensions :
 
 ![Choix du type d'extension](./images/extension-types.png)
 
-Pour cet exemple, on va créer une extension qui ajoute une commande à la palette de commande. Choisissez la première option, puis remplissez les champs demandés comme ci-dessous:
+Pour cet exemple, on va créer une extension qui ajoute une commande à la palette de commande. Choisissez la première option, puis remplissez les champs demandés comme ci-dessous :
 
 ![Création d'une extension](./images/extension-create.png)
 
-Ouvrez ensuite le projet généré dans VS Code, puis ouvrez le fichier `package.json`. Ce fichier contient les informations de votre extension, comme son nom, sa version, sa description, etc. C'est également ici que l'on définit ce que notre extension va ajouter à VS Code, via la propriété `contributes`. Dans notre cas, on va ajouter une commande pour effectuer directement une recherche sur le site Stack Overflow. Modifiez la propriété `contributes` existante comme ci-dessous:
+Ouvrez ensuite le projet généré dans VS Code, puis ouvrez le fichier `package.json`. Ce fichier contient les informations de votre extension, comme son nom, sa version, sa description, etc. C'est également ici que l'on définit ce que notre extension va ajouter à VS Code, via la propriété `contributes`. Dans notre cas, on va ajouter une commande pour effectuer directement une recherche sur le site Stack Overflow. Modifiez la propriété `contributes` existante comme ci-dessous :
 
 ```
 "contributes": {
@@ -29,7 +29,7 @@ Ouvrez ensuite le projet généré dans VS Code, puis ouvrez le fichier `package
 },
 ```
 
-On a défini ici une nouvelle commande, qui sera accessible via la palette de commande. On va maintenant définir ce que cette commande va faire. Pour cela, ouvrez le fichier `src/extension.ts`. Ce fichier contient le code de votre extension. Vous pouvez voir que le code généré par le générateur d'extensions est déjà fonctionnel, et contient des commentaires pour aider à comprendre ce qu'il se passe ici. Nous allons maintenant ajouter notre code pour effectuer une recherche sur Stack Overflow. Remplacez ces lignes:
+On a défini ici une nouvelle commande, qui sera accessible via la palette de commande. On va maintenant définir ce que cette commande va faire. Pour cela, ouvrez le fichier `src/extension.ts`. Ce fichier contient le code de votre extension. Vous pouvez voir que le code généré par le générateur d'extensions est déjà fonctionnel, et contient des commentaires pour aider à comprendre ce qu'il se passe ici. Nous allons maintenant ajouter notre code pour effectuer une recherche sur Stack Overflow. Remplacez ces lignes :
 
 ```typescript
 let disposable = vscode.commands.registerCommand('vscode-overflow.helloWorld', () => {
@@ -39,7 +39,7 @@ let disposable = vscode.commands.registerCommand('vscode-overflow.helloWorld', (
 });
 ```
 
-Par le code suivant:
+Par le code suivant :
 
 ```typescript
 let disposable = vscode.commands.registerCommand('vscode-overflow.search', async () => {
@@ -60,7 +60,7 @@ let disposable = vscode.commands.registerCommand('vscode-overflow.search', async
   await vscode.commands.executeCommand('vscode.open', uri);
 ```
 
-Maintenant, appuyez sur `F5` pour tester votre extension. Une nouvelle fenêtre de VS Code va s'ouvrir, avec votre extension installée. On peut maintenant la tester en ou ouvrant la palette de commande et en selectionnant `Rechercher sur Stack Overflow`, saisissez une question et appuyez sur `Entrée`. Une nouvelle fenêtre de navigateur va s'ouvrir avec les résultats de la recherche. Vous pouvez également sélectionner du texte dans l'editeur et lancer la commande, le texte sélectionné sera utilisé comme question.
+Maintenant, appuyez sur `F5` pour tester votre extension. Une nouvelle fenêtre de VS Code va s'ouvrir, avec votre extension installée. On peut maintenant la tester en ou ouvrant la palette de commande et en sélectionnant `Rechercher sur Stack Overflow`, saisissez une question et appuyez sur `Entrée`. Une nouvelle fenêtre de navigateur va s'ouvrir avec les résultats de la recherche. Vous pouvez également sélectionner du texte dans l'éditeur et lancer la commande, le texte sélectionné sera utilisé comme question.
 
 ![Notre extension en action](./images/extension-run.png)
 

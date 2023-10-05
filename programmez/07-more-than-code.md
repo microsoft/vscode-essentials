@@ -21,13 +21,13 @@ En plus de la documentation, Markdown est aussi très utile pour prendre des not
 
 Quand il s'agit d'organiser son quotidien, que ce soit pour le travail ou pour la vie personnelle, l'extension **Todo Tree** est un outil très pratique. Elle permet de lister les `TODO` et `FIXME` de tous vos fichiers, et de les afficher dans une vue dédiée, avec des filtres et des options de tri. Fini les `// TODO: fix this` qui s'accumulent et trainent dans vos fichiers, cette extension vous permettra de les retrouver facilement et de les traiter.
 
-Et si vous aimez comme moi organiser vos idées sous forme de mindmaps, l'extension **Markmap** vous permet de créer des mindmaps simplement avec des listes Markdown, et de naviguer dans celles-ci directement dans VS Code.
+Et si, comme moi, vous aimez organiser vos idées sous forme de mindmaps, l'extension **Markmap** vous permet de créer des mindmaps simplement avec des listes Markdown, et de naviguer dans celles-ci directement dans VS Code.
 
 ![Exemple de mindmap avec Markmap](./images/markmap.png)
 
 ### Présentations
 
-On peut tout faire ou presque avec Markdown, y compris des présentations! L'extension **Marp for VS Code** permet de créer des présentations complètes en Markdown, et de les exporter en PDF, HTML ou PowerPoint. L'extension est basée sur l'outil _Marp_ (https://marp.app/), qui inclus également plusieurs thèmes de base et la possibilité de créer le votre en CSS.
+On peut tout faire ou presque avec Markdown, y compris des présentations ! L'extension **Marp for VS Code** permet de créer des présentations complètes en Markdown, et de les exporter en PDF, HTML ou PowerPoint. L'extension est basée sur l'outil _Marp_ (https://marp.app/), qui inclus également plusieurs thèmes de base et la possibilité de créer le votre en CSS.
 
 Quelques lignes de markdown suffisent pour créer une présentation, et l'extension fera le reste.
 
