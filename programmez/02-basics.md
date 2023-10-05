@@ -40,25 +40,27 @@ Si vous travaillez sur un projet dont le code se situe dans plusieurs dossiers, 
 
 La palette de commandes est un outil très puissant dans VS Code. Elle vous permet d'accéder à de nombreuses fonctionnalités et commandes directement avec le clavier.
 
-Pour ouvrir la palette de commandes, vous pouvez utiliser le raccourci clavier `Ctrl + Shift + P` (ou `Cmd + Shift + P` sur Mac). Une fois ouverte, vous pouvez simplement commencer à taper pour rechercher une commande par son nom. Les commandes les plus utilisées apparaîtront en haut.
+Pour ouvrir la palette de commandes, vous pouvez utiliser le raccourci clavier `Ctrl+Shift+P` (ou `Cmd+Shift+P` sur Mac). Une fois ouverte, vous pouvez simplement commencer à taper pour rechercher une commande par son nom. Les commandes les plus utilisées apparaîtront en haut.
 
 C'est une façon efficace de naviguer dans VS Code sans avoir à utiliser la souris, et vous découvrirez probablement des fonctionnalités que vous n'aviez pas remarquées auparavant.
 
-> **Astuce**: Vous avez besoin de concentration ? Utilisez la commande `View: Toggle Zen Mode` pour masquer tout ce qui est superflu et vous concentrer sur votre code. Il ne vous manque plus qu'un accompagnement musical pour être dans la zone. 
+> **Astuce**: Vous avez besoin de concentration ? Utilisez la commande _Afficher: Activer/désactiver le mode zen_ pour masquer tout ce qui est superflu et vous concentrer sur votre code. Il ne vous manque plus qu'un accompagnement musical pour être dans la zone. 
 
 ### Les raccourcis clavier
 
 Les raccourcis clavier sont essentiels pour une utilisation efficace de VS Code. Ils vous permettent de naviguer et d'éditer votre code beaucoup plus rapidement que si vous utilisiez la souris. Voici quelques raccourcis clavier utiles pour commencer :
 
-- `Ctrl + P` (ou `Cmd + P` sur Mac) : Ouvrir un fichier rapidement par son nom.
-- `Ctrl + B` : Afficher/Masquer la barre latérale.
-- `Ctrl + /` : Commenter/De-commenter une ligne.
-- `Ctrl + D` : Sélectionner la prochaine occurrence du mot sous le curseur.
-- `Ctrl + Shift + K` : Supprimer la ligne actuelle.
-- `Alt + ↑` ou `Alt + ↓` : Déplacer la ligne courante vers le haut ou vers le bas.
-- `Ctrl + Space` : Activer la complétion automatique.
+- `Ctrl+P` (ou `Cmd + P` sur Mac) : Ouvrir un fichier rapidement par son nom.
+- `Ctrl+B` : Afficher/Masquer la barre latérale.
+- `Ctrl+/` : Commenter/De-commenter une ligne.
+- `Ctrl+D` : Sélectionner la prochaine occurrence du mot sous le curseur.
+- `Ctrl+Shift+K` : Supprimer la ligne actuelle.
+- `Alt+↑` ou `Alt+↓` : Déplacer la ligne courante vers le haut ou vers le bas.
+- `Ctrl+Space` : Activer la complétion automatique.
 
 Il y a beaucoup d'autres raccourcis clavier disponibles, et ils peuvent vraiment accélérer votre flux de travail. Vous pouvez toujours ouvrir la liste complète des raccourcis clavier en utilisant le menu `Aide` > `Raccourcis clavier`.
+
+> **Astuce**: Il est possible d'obtenir un PDF d'une page récapitulant tous les raccourcis claviers en selectionnant _Aide: Référence des raccourcis clavier_ dans la palette de commande.
 
 ### Zoom sur la fenêtre d'édition
 

@@ -23,7 +23,7 @@ sudo apt install ./vscode.deb
 
 > **En savoir plus**: VS Code est également disponible sur **Snaps**, Le store d'applications pour Linux. Si vous ne connaissez pas Snaps, vous pouvez en découvrir plus sur le site officiel : https://snapcraft.io/docs/installing-snapd.
 
-**Mac**: Vous pouvez télécharger l'application depuis le site officiel. Il vous suffit alors de glisser-déposer l'application dans le dossier **Applications** de votre Mac.
+**Mac**: Vous pouvez télécharger l'application depuis le site officiel. Il vous suffit alors de glisser-déposer l'application dans le dossier **Applications** de votre Mac. Si vous êtes utilisateurs d'HomeBrew (https://brew.sh), vous pouvez installer VS Code avec la commande `brew install --cask visual-studio-code`.
 
 ### Une utilisation nomade
 
@@ -59,7 +59,7 @@ Il existe cependant des scénarios pour lesquels vous n'avez pas un accès direc
 
 > **Important**: Bien que VS Code Server n'expose pas directement votre serveur sur Internet, cela crée un point d'entrée sur vos machines. Avant de l'utiliser sur ces postes tels que des serveurs de production, assurez-vous de bien comprendre les implications sur votre _modèle de menace_ (Threat Model).
 
-Pour commencer, installez **VS Code CLI** sur le poste cible, lancez la commande magique `code tunnel`, et identifiez-vous avec GitHub. Si vous êtes sur un poste avec une interface visuelle (comme votre PC fixe), activez le tunnel via le **menu de comptes**.
+Pour commencer, installez **VS Code CLI** sur le poste cible, lancez la commande magique _code tunnel_, et identifiez-vous avec GitHub. Si vous êtes sur un poste avec une interface visuelle (comme votre PC fixe), activez le tunnel via le **menu de comptes**.
 
 ![](./images/01-tunnel.png)
 
