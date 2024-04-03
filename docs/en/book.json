@@ -1,3 +1,6 @@
 {
-  "root": "."
+  "root": ".",
+  "pdf": {
+    "fontSize": 14
+  }
 }
