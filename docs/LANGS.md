@@ -1,4 +1,4 @@
 # Languages
 
 - [English](en/)
-- [French](fr/)
+<!-- - [French](fr/) -->
