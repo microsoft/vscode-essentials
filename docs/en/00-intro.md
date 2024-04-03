@@ -1,3 +1,0 @@
-# VS Code Essentials
-
-Visual Studio Code, or VS Code for short, is a lightweight, flexible, and open-source code editor. It's hard to ignore this tool that has become a must-have for developers in just a few years! Through this book aimed at both beginners and experienced users, we propose to explore the features of this editor in detail and give you some tips to fully master it, in order to get the most out of it.
