@@ -1,6 +1,12 @@
 {
   "root": ".",
+  "title": "Visual Studio Code - The Essentials",
+  "author": "Yohan Lasorsa & Christopher Maneu",
+  "language": "en",
+
   "pdf": {
-    "fontSize": 14
+    "fontSize": 12,
+    "paperSize": "a5",
+    "embedFonts": true
   }
 }
