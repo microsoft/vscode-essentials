@@ -1,4 +1,4 @@
-## Editor Customization
+## Customize your editor
 
 One of the strengths of VS Code is its ability to be customized and fully adapted to your needs. Thus, you can modify the appearance of the editor, add extensions, change or create your own keyboard shortcuts, and much more.
 

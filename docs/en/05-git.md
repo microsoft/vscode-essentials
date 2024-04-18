@@ -1,4 +1,4 @@
-## Managing git in VS Code
+## Use Git in VS Code
 
 If you're working in a team or on your own project, chances are you use _git_ to manage your source code. Git is the de-facto standard for source code control management. VS Code makes it easy to work with Git. In this part, we'll look at the main features you'll need every day.
 

@@ -1,4 +1,4 @@
-## Basic Operation
+## Get the basics right
 
 <!--
 ref: https://code.visualstudio.com/docs/getstarted/userinterface
