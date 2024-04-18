@@ -10,6 +10,7 @@
     "build:website": "honkit build",
     "build:book": "mkdir -p dist && honkit pdf ./ ./dist/vs-code-essentials.pdf && honkit epub ./ ./dist/vs-code-essentials.epub && honkit mobi ./ ./dist/vs-code-essentials.mobi",
     "build:clean": "rm -rf _book dist",
+    "build:word": "pandoc --reference-doc ./vs-code-essentials_template.docx -s ./dist/vs-code-essentials_en.epub -o dist/vs-code-essentials_en.docx",
     "format": "prettier --write '(src|scripts)/**/*.{ts,json,scss}'",
     "prepare": "simple-git-hooks || echo 'simple-git-hooks install skipped'"
   },
