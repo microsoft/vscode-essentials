@@ -1,4 +1,4 @@
-name: Publish website and eBook
+name: Publish eBook
 on:
   workflow_dispatch:
   # push:
@@ -18,14 +18,14 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install Calibre
         run: sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
@@ -36,23 +36,23 @@ jobs:
       - name: Generate website and eBook
         run: npm run build
 
-      # - name: Setup GitHub Pages
-      #   uses: actions/configure-pages@v2
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v2
 
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v1
       #   with:
       #     path: _book
 
-      # - name: Deploy website to GitHub Pages
-      #   id: deployment
-      #   uses: actions/deploy-pages@v1
+      - name: Deploy website to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
 
-      - name: Update eBook release
-        uses: ncipollo/release-action@v1.12.0
-        with:
-          name: Workshop packages
-          tag: latest
-          artifacts: 'dist/*'
-          allowUpdates: true
-          removeArtifacts: true
+      # - name: Update eBook release
+      #   uses: ncipollo/release-action@v1.12.0
+      #   with:
+      #     name: Workshop packages
+      #     tag: latest
+      #     artifacts: 'dist/*'
+      #     allowUpdates: true
+      #     removeArtifacts: true

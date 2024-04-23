@@ -4,7 +4,7 @@
 
 # 📚 Visual Studio Code - The Essentials
 
-[![Website on GitHub Pages](https://github.com/microsoft/vscode-essentials/actions/workflows/publish.yml/badge.svg)](https://github.com/microsoft/vscode-essentials/actions/workflows/publish.yml)
+[![Publish Action](https://github.com/microsoft/vscode-essentials/actions/workflows/publish.yml/badge.svg)](https://github.com/microsoft/vscode-essentials/actions/workflows/publish.yml)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA-222.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 :star: If you like this book, star it on GitHub — it helps a lot!
