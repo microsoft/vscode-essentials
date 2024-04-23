@@ -8,9 +8,10 @@
     "start": "honkit serve",
     "build": "npm run build:website -s && npm run build:book -s",
     "build:website": "honkit build",
-    "build:book": "mkdir -p dist && honkit pdf ./ ./dist/vs-code-essentials.pdf && honkit epub ./ ./dist/vs-code-essentials.epub && honkit mobi ./ ./dist/vs-code-essentials.mobi",
+    "build:book": "mkdir -p dist && honkit pdf ./ ./dist/vs-code-essentials.pdf && npm run build:epub && honkit mobi ./ ./dist/vs-code-essentials.mobi",
     "build:clean": "rm -rf _book dist",
     "build:word": "pandoc --reference-doc ./vs-code-essentials_template.docx -s ./dist/vs-code-essentials_en.epub -o dist/vs-code-essentials_en.docx",
+    "build:epub": "pandoc -o dist/vscode-essentials.epub --toc --toc-depth=3 --metadata-file=docs/en/metadata.yaml --epub-cover-image=docs/en/cover_small.jpg --css=docs/en/book.css --resource-path=docs/en/ docs/en/notice.md docs/en/README.md docs/en/01-getting-started.md  docs/en/02-basics.md docs/en/03-customization.md docs/en/04-top-extensions.md docs/en/05-git.md docs/en/06-advanced-editing.md docs/en/07-more-than-code.md docs/en/08-notebooks.md docs/en/09-dev-containers.md docs/en/10-create-an-extension.md docs/en/11-conclusion.md docs/en/99-authors.md docs/en/99-changelog.md",
     "format": "prettier --write '(src|scripts)/**/*.{ts,json,scss}'",
     "prepare": "simple-git-hooks || echo 'simple-git-hooks install skipped'"
   },

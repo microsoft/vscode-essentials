@@ -1,0 +1,15 @@
+---
+title:
+- type: main
+  text: Visual Studio Code - The Essentials
+- type: subtitle
+  text: VS Code Day Preview edition
+creator:
+- role: author
+  text: Yohan Lasorsa
+- role: author
+  text: Christopher Maneu
+date: 2024-04-23
+publisher:  Microsoft Cloud Advocacy
+rights: © 2024 Yohan Lasorsa and Christopher Maneu, CC-BY-SA 4.0
+---
