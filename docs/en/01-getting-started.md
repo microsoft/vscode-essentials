@@ -39,7 +39,7 @@ If you use this version regularly, you may want to keep your settings between di
 
 ### Using VS Code Without Installing
 
-Are you at a friend's house and need to code quickly? The horror, there's only notepad on their computer! Fortunately, VS Code comes to your rescue.
+Are you at a friend's house and need to code quickly? The horror, there's only Notepad on their computer! Fortunately, VS Code comes to your rescue.
 
 Simply visit the site [vscode.dev](https://vscode.dev) and you're ready to code, without installing anything!
 
@@ -63,7 +63,7 @@ However, there are scenarios where you don't have direct SSH access: workstation
 
 > **Important**: Although VS Code Server does not directly expose your server to the Internet, it creates an entry point on your machines. Before using it on such workstations as production servers, ensure you fully understand the implications for your _Threat Model_.
 
-To start, install **VS Code CLI** on the target workstation, launch the magic command `code tunnel`, and authenticate with GitHub. If you're on a workstation with a visual interface (like your desktop PC), activate the tunnel via the **accounts menu**.
+To start, install **VS Code CLI** on the target workstation, launch the magic command `code tunnel`, and authenticate with GitHub. If you're on a workstation with a visual interface (like your desktop PC), activate the tunnel via the **accounts** menu.
 
 ![](./images/01-tunnel.png)
 
@@ -73,10 +73,10 @@ Once the tunnel is activated, you can access your target workstation simply from
 
 By default, Visual Studio Code automatically suggests installing updates as they become available. You can then choose to install it immediately or on the next editor shutdown. Unless you're working with a portable version or have opted to disable this function, updating VS Code is a breeze.
 
-Now, let's talk cadence! The teams dedicated to VS Code unveil a minor version every month. To fully enjoy what VS Code has to offer, consider following this monthly rhythm. Some months may have more than one minor version, especially if there's a security vulnerability or a regression. That's why it's strongly recommended to enable automatic updates.
+Now, let's talk cadence! The teams dedicated to VS Code unveil a minor version every month. To fully enjoy what VS Code has to offer, consider following this monthly rhythm. Some months may have more than one minor version, especially if there's security vulnerability or a regression. That's why it's strongly recommended to enable automatic updates.
 
 ### Staying Ahead with the Insider Edition
 
-For the more daring, eager for new features, you can use the "Insider" edition of VS Code. This version is updated daily and gives you access to the latest features before everyone else. Of course, it's like playing with a prototype - it can be a bit risky for production use. But don't worry, you can have this version and the stable version side-by-side on your computer.
+For the more daring, eagerness for new features, you can use the "Insider" edition of VS Code. This version is updated daily and gives you access to the latest features before everyone else. Of course, it's like playing with a prototype - it can be a bit risky for production use. But don't worry, you can have this version and the stable version side-by-side on your computer.
 
 You can download the insiders version at https://code.visualstudio.com/insiders/, and even access the web version at https://insiders.vscode.dev/.
