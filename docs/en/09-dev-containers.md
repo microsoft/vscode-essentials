@@ -1,10 +1,10 @@
 ## Developing in a Container
 
-With the **Dev Containers** extension, it's possible to have your complete development environment in a Docker container. But what's the benefit? This approach has several advantages:
+With the **Dev Containers** extension, it's possible to have your complete development environment in a Docker container. But what's the benefit? This approach has quite some advantages:
 
-- **Quick Setup**: to start working on a new project, simply clone the repository and open the folder in VS Code. The extension will then download the Docker image and launch the container, which contains everything you need to work on the project. No more lengthy installations of tools and dependencies!
-- **Reproducibility**: the development environment can be shared with your colleagues, to ensure that everybody is working under the same conditions. It can also be versioned with your code, which makes updates easier.
-- **Project Isolation**: each project has its own isolated environment, preventing version conflicts and avoiding polluting your system with development dependencies.
+- **Quick Setup**: To start working on a new project, simply clone the repository and open the folder in VS Code. The extension will then download the Docker image and launch the container, which contains everything you need to work on the project. No more lengthy installations of tools and dependencies!
+- **Reproducibility**: The development environment can be shared with your colleagues, to ensure that everybody is working under the same conditions. It can also be versioned with your code, which makes updates easier.
+- **Project Isolation**: Each project has its own isolated environment, preventing version conflicts and avoiding polluting your system with development dependencies.
 
 To use it, you must first install Docker on your machine. After installing the extension, you can set up a new environment for your project by clicking on the icon in the bottom left and then selecting `Add Development Container Configuration Files...`. You can then choose a base environment from the many templates offered, or create your own configuration.
 
