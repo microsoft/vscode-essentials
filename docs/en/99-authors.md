@@ -2,7 +2,7 @@
 
 **Yohan Lasorsa** is a web developer and Senior Cloud Advocate at Microsoft.
 
-With more than 10 years working as software engineer and cloud architect, he is now focusing on the web platform and open source projects. He enjoys pushing bits of JavaScript everywhere he can, while sharing his passion with others.
+Open-source enthusiast and software craftsman, the web is the ultimate playground for Yohan. With a background of 15+ years in various fields such as applied research on mobile and IoT, architecture consulting and cloud applications development, he worked all the way down to the low-level stacks before diving into web development. As a full stack engineer and DIY hobbyist, he now enjoys pushing bits of JavaScript everywhere he can while sharing his passion with others.
 
 **Christopher Maneu** is a developer/data engineer and Principal Cloud Advocate at Microsoft. His mission is to help every technologist on the planet succeed, focusing on data and data team behind the applications.
 
