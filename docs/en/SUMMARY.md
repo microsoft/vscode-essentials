@@ -3,6 +3,7 @@
 
 - [Notice](notice.md)
 - [Foreword](README.md)
+- [Prerelease Note](00-prerelease-note.md)
 
 - [Getting started with VS Code](01-getting-started.md)
 
