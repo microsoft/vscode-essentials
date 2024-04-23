@@ -1,6 +1,6 @@
 ## Advanced Editing Features
 
-When you spend a large portion of your time editing code, it's important to be able to do it quickly and efficiently. VS Code offers numerous advanced editing features that will save you time and allow you to focus on what's essential.
+When you spend a substantial part of your time editing code, it's important to be able to do it quickly and efficiently. VS Code offers numerous advanced editing features that will save you time and allow you to focus on what's essential.
 
 ### Quick Navigation
 
@@ -19,13 +19,13 @@ If you are not familiar with the project structure and the file names, another a
 
 ### Refactoring
 
-When writing code, the first version is rarely definitive. Refactoring your code is an important step to make it more readable, maintainable, and performant. Fortunately, VS Code offers numerous features to help you save time during this step.
+When writing code, the first version is rarely definitive. Refactoring your code is a major step to make it more readable, maintainable, and performant. Fortunately, VS Code offers numerous features to help you save time during this step.
 
 To quickly rename a variable, a function, or a class, simply position the cursor on it and press `F2` or right-click and select `Rename Symbol`. Once you've entered the new name, either you're confident and you press `Enter` to validate, or you prefer to check the changes before applying them with `Shift+Enter` to open a preview window.
 
 ![Refactoring preview](./images/rename-symbol-preview.png)
 
-When you select code, a small lightbulb will appear at the beginning of the line. Clicking on it will allow you to access specific refactoring actions for the selected code.
+When you select code, a small light bulb will appear at the beginning of the line. Clicking on it will allow you to access specific refactoring actions for the selected code.
 
 ![Refactoring actions](./images/refactor-actions.png)
 
@@ -39,11 +39,11 @@ If you appreciate having a clean and well-formatted codebase, you can also use t
 
 ### Multi-Cursor Editing
 
-My favorite feature of VS Code is without doubt the multi-cursor editing. It allows you to edit multiple parts of your code _at the same time_, and save precious time. There are several ways to activate this feature:
+My favorite feature of VS Code is without doubt the multi-cursor editing. It allows you to edit multiple parts of your code _at the same time_ and save precious time. There are several ways to activate this feature:
 
 - By using `Alt+Click` to add a cursor where you click.
 - Via the shortcut `Shift+Ctrl+Alt+Up/Down` (or `Shift+Cmd+Alt+Up/Down` on Mac) to add a cursor on the line above or below the current cursor.
-- By selecting a word or a phrase, and pressing `Ctrl+D` (or `Cmd+D` on Mac) to select the next occurrence, repeatable at will. It's possible to skip the next occurrence with `Ctrl+K, Ctrl+D` (or `Cmd+K, Cmd+D` on Mac). Finally, the shortcut `Shift+Ctrl+L` (or `Shift+Cmd+L` on Mac) allows you to select all occurrences in one go.
+- By selecting a word or a phrase and pressing `Ctrl+D` (or `Cmd+D` on Mac) to select the next occurrence, repeatable at will. It's possible to skip the next occurrence with `Ctrl+K, Ctrl+D` (or `Cmd+K, Cmd+D` on Mac). Finally, the shortcut `Shift+Ctrl+L` (or `Shift+Cmd+L` on Mac) allows you to select all occurrences in one go.
 
 Once your cursors are in place, you can move them with the keyboard arrows, and edit the text normally. But this time, the changes will be applied to all cursors at the same time! This feature is very handy for avoiding repetitive manual modifications, such as adding quotes around each element of an array. It does, however, require a bit of practice to be used effectively.
 
@@ -53,7 +53,7 @@ Once your cursors are in place, you can move them with the keyboard arrows, and 
 
 ### Snippets
 
-Another way to avoid repetitive tasks is to use _snippets_. These are code templates that you can insert by typing a keyword, then validating with `Tab`. VS Code already offers some, but it is possible to create new ones or install them via extensions.
+Another way to avoid repetitive tasks is to use _snippets_. These are code templates that you can insert by typing a keyword, then confirming with `Tab`. VS Code already offers some, but it is possible to create new ones or install them via extensions.
 
 Snippets appear in the autocomplete list with `Ctrl+Space`. It is possible to see the list of available snippets for the current language by selecting `Snippets: Insert Snippet` in the command palette. VS Code includes some by default, particularly for JavaScript, TypeScript, Markdown, PHP, HTML, and others.
 
@@ -71,7 +71,7 @@ To create a snippet, select `Snippets: Configure User Snippets` in the command p
 }
 ```
 
-The `prefix` field corresponds to the keyword that will insert the snippet. The `body` field contains the content of the snippet, and the optional `description` field describes the snippet when it appears in the autocomplete. The `$` are used to define insertion points, and you can quickly move from one point to another with `Tab`. Finally, the `:` of an insertion point as with `${1:name}` allows you to define a default value, here `name`.
+The `prefix` field corresponds to the keyword that will insert the snippet. The `body` field holds the content of the snippet, and the optional `description` field describes the snippet when it appears in the autocomplete. The `$` are used to define insertion points, and you can quickly move from one point to another with `Tab`. Finally, the `:` of an insertion point as with `${1:name}` allows you to define a default value, here `name`.
 
 VS Code also has built-in support for **Emmet** abbreviations. This is a language that allows generating HTML and CSS code from abbreviations. For example, by typing `div>ul>li*3>span.line$` in an HTML file, VS Code will offer to expand the abbreviation via the autocomplete list. Validate with `Tab` to obtain the following code:
 
@@ -85,12 +85,12 @@ VS Code also has built-in support for **Emmet** abbreviations. This is a languag
 </div>
 ```
 
-This syntax is very useful for quickly writing HTML and CSS code. For more information on the Emmet syntax, you can consult the official documentation at https://docs.emmet.io.
+This syntax is particularly useful for quickly writing HTML and CSS code. For more information on the Emmet syntax, you can consult the official documentation at https://docs.emmet.io.
 
 ### Collaborative Editing
 
-Just because we work remotely doesn't mean we have to work alone! Thanks to extensions like **Live Share**, it is possible to collaborate in real-time with your colleagues on the same project, for pair programming or code review, for example. After installing the extension, simply select the new Live Share icon that has been added to the sidebar and click on `Share` to start a collaborative session. You can then invite your colleagues to join the session by sending them the generated link.
+Just because we work remotely doesn't mean we have to work alone! Thanks to extensions like **Live Share**, it is possible to collaborate in real-time with your colleagues on the same project, for pair programming or code review, for example. After installing the extension, simply select the new Live Share icon that has been added to the sidebar and click on `Share` to start a collaborative session. You can then invite your colleagues to join the session by sending them the link generated.
 
 ![Live Share session](./images/live-share.png)
 
-Once the session is started, you can see the changes made by your colleagues in real-time, and chat with them via the integrated chat. You can also share your terminal, and even redirect ports to share a local server. You also have the option to restrict modification rights and terminal access to avoid unpleasant surprises. This is very practical, for example, for doing demonstrations or remote classes!
+Once the session is started, you can see the changes made by your colleagues in real-time, and chat with them via the integrated chat. You can also share your terminal, and even redirect ports to share a local server. You also have the choice to restrict modification rights and terminal access to avoid unpleasant surprises. This is very practical, for example, for doing demonstrations or remote classes!

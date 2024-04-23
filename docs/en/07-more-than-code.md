@@ -1,6 +1,6 @@
 ## Going Beyond Code Editing
 
-VS Code has built-in support for _Markdown_, which allows formatting documents using a text syntax that is easy to read and write. Beyond syntactic highlighting and preview (accessible via `Maj+Ctrl+V` or `Maj+Cmd+V` on Mac), the support for this language offers much more than just simple document formatting.
+VS Code has built-in support for _Markdown_, which allows formatting documents using a text syntax that is easy to read and write. Beyond syntactic highlighting and preview (accessible via `Maj+Ctrl+V` or `Maj+Cmd+V` on Mac), the support for this language offers much more than simple document formatting.
 
 ### Documentation and Diagrams
 
@@ -17,11 +17,11 @@ Another alternative if you like whiteboard drawings is the **Excalidraw** extens
 
 ### Organization and Notes
 
-In addition to documentation, Markdown is also very useful for taking notes and organizing. The **Dendron** extension allows organizing your notes in a hierarchical knowledge base and linking them to files in your project. The tool is also well integrated into VS Code's global search and leverages _quick navigation_ to let you navigate through all your notes. You can even export your knowledge base to a website, to share with your colleagues.
+In addition to documentation, Markdown is also quite useful for taking notes and organizing. The **Dendron** extension allows you to organize your notes in a hierarchical knowledge base and link them to files in your project. The tool is also well integrated into VS Code's global search and uses _quick navigation_ to let you navigate through all your notes. You can even export your knowledge base to a website, to share with your colleagues.
 
 When it comes to organizing your daily life, whether for work or personal life, the **Todo Tree** extension is a very handy tool. It allows listing the `TODO` and `FIXME` from all your files and displaying them in a dedicated view, with filters and sorting options. Gone are the `// TODO: fix this` that accumulate and linger in your files, this extension will allow you to easily find and address them.
 
-And if, like me, you like organizing your ideas into mind maps, the **Markmap** extension lets you create mind maps simply with Markdown lists, and navigate within them directly in VS Code.
+And if, like me, you like organizing your ideas into mind maps, the **Markmap** extension lets you create mindmaps simply with Markdown lists, and navigate within them directly in VS Code.
 
 ![Mindmap example with Markmap](./images/markmap.png)
 
