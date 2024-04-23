@@ -8,7 +8,7 @@ If you're working in a team or on your own project, chances are you use _git_ to
 
 To work with Git, you need to be in a directory that is already a git repository. If you already have such a directory on your machine - for example, because you cloned it via the command line or another tool - you just need to open the directory with VS Code.
 
-Do you have a folder containing your code, but it's not yet a git repository? You can simply create a repository by opening this directory, then clicking the **Initialize Repository** button in the _Source Control_ sidebar.
+Do you have a folder holding your code, but it's not yet a git repository? You can simply create a repository by opening this directory, then clicking the **Initialize Repository** button in the _Source Control_ sidebar.
 
 ![](./images/global-git.png)
 
@@ -36,7 +36,7 @@ When you're about to make a release of your project, it's common to use tags to 
 
 ### Managing conflicts
 
-Doing a _push_ or a _pull_ is usually easy... Until a conflict appears! In these cases, you'll always have work to do, but VS Code will be there to help!
+Doing a _push_ or a _pull_ is typically easy... Until a conflict appears! In these cases, you'll always have work to do, but VS Code will be there to help!
 
 When an operation results in a conflict, VS Code will group the conflicting files in the **Merge Changes** section. You will then have an overview of the conflicts. By opening the merge editor (via the **Resolve in Merge Editor** button at the bottom right of the editor).
 
@@ -44,7 +44,7 @@ When an operation results in a conflict, VS Code will group the conflicting file
 
 Once the conflict is resolved, you can simply commit the commit.
 
-<!-- > -->
+<!-- 
 ### Status & gutter indicators
 
 - Commit to push
