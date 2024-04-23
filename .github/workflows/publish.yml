@@ -5,7 +5,8 @@ on:
   #   branches: [main]
 
 concurrency:
-  group: publish
+  group: "publish"
+  cancel-in-progress: false
 
 permissions:
   pages: write
@@ -39,16 +40,16 @@ jobs:
         run: npm run build
 
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _book
 
       - name: Deploy website to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
 
       # - name: Update eBook release
       #   uses: ncipollo/release-action@v1.12.0
