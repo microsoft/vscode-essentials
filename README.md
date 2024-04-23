@@ -19,7 +19,7 @@
 ## Get the book
 
 | Format | Link |
-|-|-|
+|-|:-:|
 | Website | [Read online](https://microsoft.github.io/vscode-essentials/en/) | 
 | Amazon Kindle | <a href="https://aka.ms/vscode-essentials-book/kindle"><picture><source media="(prefers-color-scheme: dark)" srcset="./images/badge-amazon-rev.png"><img alt="Get it on Amazon" src="./images/badge-amazon.png" height="36"></picture></a> |
 | Apple Books | <a href="https://aka.ms/vscode-essentials-book/apple"><picture><source media="(prefers-color-scheme: dark)" srcset="./images/badge-apple-books-rev.png"><img alt="Get it on Apple Books" src="./images/badge-apple-books.png" height="32"></picture></a> |
