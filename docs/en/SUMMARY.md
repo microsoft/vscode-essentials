@@ -8,7 +8,7 @@
 - [Getting started with VS Code](01-getting-started.md)
 
 - Essential features
-  * [Get the basics right](02-basics.md)
+  * [Get the basics right!](02-basics.md)
   * [Customize your editor](03-customization.md)
   * [Use Git in VS Code](05-git.md)
   * [Our Top Extensions](04-top-extensions.md)
