@@ -1,6 +1,6 @@
 ## Customize your editor
 
-One of the strengths of VS Code is its ability to be customized and fully adapted to your needs. Thus, you can modify the appearance of the editor, add extensions, change or create your own keyboard shortcuts, and much more.
+One of the strengths of VS Code is its ability to be customized and fully adapted to your needs. Thus, you can change the appearance of the editor, add extensions, change or create your own keyboard shortcuts, and much more.
 
 One of the first things done after installing VS Code is choosing a theme. There are hundreds available, and you can even create your own. If you open the command palette and search for the option `Preferences: Color Theme`, you can choose one from the list of available themes.
 
@@ -8,13 +8,13 @@ One of the first things done after installing VS Code is choosing a theme. There
 
 ![Theme choice](./images/theme.png)
 
-If the default themes do not suit you, you can also download others from the extension marketplace. Select the extension icon on the sidebar, and enter `@category:"themes"` in the search bar. Note that a VS Code theme can cover one or more of the following elements, which can be chosen independently:
+If the default themes do not suit you, you can also download others from the extension marketplace. Select the extension icon on the sidebar and enter `@category:"themes"` in the search bar. Note that a VS Code theme can cover one or more of the following elements, which can be chosen independently:
 
 - Interface colors
 - File icons
 - Product icons (sidebar, toolbar, etc.)
 
-Your theme choice is saved in your _User Preferences_, and applies by default to all your projects (also called _workspaces_).
+Your theme choice is saved in your _User Preferences_ and applies by default to all your projects (also called _workspaces_).
 
 ```
 "workbench.colorTheme": "Default Dark+"
@@ -24,7 +24,7 @@ However, it is possible to choose a different theme for your projects by creatin
 
 ### Changing the Current Theme
 
-If you want to change one or more colors of the current theme, you can do so by modifying the `settings.json` file of your user preferences. To do this, open the command palette and search for the option `Preferences: Open Settings (JSON)`.
+If you want to change one or more colors of the current theme, you can do so by changing the `settings.json` file of your user preferences. To do this, open the command palette and search for the option `Preferences: Open Settings (JSON)`.
 
 The properties `workbench.colorCustomizations` and `editor.tokenColorCustomizations` allow you to modify the interface colors and the code editor's colors, respectively. For example, you can change the sidebar background color with the `activityBar.background` property:
 
@@ -36,13 +36,13 @@ The properties `workbench.colorCustomizations` and `editor.tokenColorCustomizati
 
 Autocomplete (`Ctrl+Space`) will allow you to see all the available values for these properties.
 
-It is also possible to make changes to the current theme through extensions. For example, the **background** extension from the marketplace allows you to add a background image to the editor, and the **Peacock** extension allows you to change the color of each new instance of VS Code to differentiate them better.
+It is also possible to customize to the current theme through extensions. For example, the **background** extension from the marketplace allows you to add a background image to the editor, and the **Peacock** extension allows you to change the color of each new instance of VS Code to differentiate them better.
 
 ### Configuration Settings
 
-All the settings of VS Code as well as installed extensions are stored in a JSON file, the previously seen `settings.json` file. You can access it by opening the command palette and searching for the option `Preferences: Open Settings (JSON)`, or change them via the graphical interface with `Preferences: Open Settings (UI)`. There are two types of settings:
+All the settings of VS Code as well as installed extensions are stored in a JSON file, the previously seen `settings.json` file. You can access it by opening the command palette and searching for the option `Preferences: Open Settings (JSON)` or change them via the graphical interface with `Preferences: Open Settings (UI)`. There are two types of settings:
 
-- User settings, which apply to all projects
+- User settings, which apply to all projects.
 - Workspace settings, which only apply to the current project. These preferences are stored in a `.vscode/settings.json` file at the root of the project and can be shared with other team members.
 
 It is also possible to synchronize your settings across several machines to easily replicate your configuration everywhere. To do this, open the command palette and launch `Settings Sync: Turn On Settings Sync`. You can then choose what data you want to synchronize and connect via a GitHub or Microsoft account for storage.
@@ -62,9 +62,9 @@ Note also that the `.vscode` folder can contain other configuration files, like 
 
 ### Keyboard Shortcuts
 
-To be efficient while coding, nothing beats knowing how to use keyboard shortcuts. VS Code offers hundreds, and you can modify existing ones or create new ones. To do this, open the command palette and search for the option `Preferences: Open Keyboard Shortcuts`. You will then see the long list of already configured keyboard shortcuts, but also all the editor's and installed extensions' commands for which you can create a shortcut.
+To be efficient while coding, nothing beats knowing how to use keyboard shortcuts. VS Code offers hundreds, and you can change existing ones or create new ones. To do this, open the command palette and search for the option `Preferences: Open Keyboard Shortcuts`. You will then see the extensive list of already configured keyboard shortcuts, but also all the editor's and installed extensions' commands for which you can create a shortcut.
 
-Similarly to user settings, keyboard shortcuts are stored in a `keybindings.json` file that can be directly modified. If you are comfortable with JSON, it is even possible to add conditions so that the shortcut is only active in certain contexts, or configure macros consisting of a series of commands. For example, here the shortcut `Ctrl+N` creates a new TypeScript file and inserts a class template:
+Similarly to user settings, keyboard shortcuts are stored in a `keybindings.json` file that can be directly changed. If you are comfortable with JSON, it is even possible to add conditions so that the shortcut is only active in certain contexts or configure macros consisting of a series of commands. For example, here the shortcut `Ctrl+N` creates a new TypeScript file and inserts a class template:
 
 ```json
 {
@@ -92,7 +92,7 @@ Similarly to user settings, keyboard shortcuts are stored in a `keybindings.json
 
 ### Customizing the Interface
 
-Beyond the theme and colors, it is possible to deeply modify the VS Code interface to suit your needs. In the title bar, you have several icons that allow you to hide the main panels of the interface, but also customize the interface in more detail by selecting the one on the right:
+Beyond the theme and colors, it is possible to deeply customize the VS Code interface to suit your needs. In the title bar, you have four icons that allow you to hide the main panels of the interface, but also customize the interface in more detail by selecting the one on the right:
 
 ![Customize layout](./images/customize-layout.png)
 
