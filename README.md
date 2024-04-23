@@ -15,7 +15,7 @@
 *Visual Studio Code - The Essentials* is a comprehensive guide that explores the capabilities of [Visual Studio Code](https://code.visualstudio.com/), aiming to help both beginners and experienced developers harness its full potential. The book covers essential and advanced features, customization, extensions, and even guides on creating your own extension, all available in digital and print formats.
 
 > [!Note]
-> This ebook is currently a public preview. We are actively working on improving the content and adding more chapters. All localization efforts will start once the English version is complete.
+> This book is currently a public preview. We are actively working on improving the content and adding more chapters. All localization efforts will start once the English version is complete.
 
 ## Get the book
 
