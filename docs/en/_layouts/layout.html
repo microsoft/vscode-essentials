@@ -5,6 +5,7 @@
     <title>{% block title %}{{ config.title|d("HonKit", true) }}{% endblock %}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="{% block description %}{% endblock %}" />
+    <meta name="generator" content="HonKit {{ gitbook.version }}" />
     {% if config.author %}
     <meta name="author" content="{{ config.author }}" />
     {% endif %} {% if config.isbn %}
@@ -13,7 +14,7 @@
     <link rel="stylesheet" href="{{ resource.url }}" />
     {% else %}
     <link rel="stylesheet" href="{{ resource.path|resolveAsset }}" />
-    {% endif %} {% endfor %} {% endblock %}
+    {% endif %} {% endfor %} {% endblock %} {% block head %}{% endblock %}
     <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
         c[a] =
@@ -28,7 +29,6 @@
         y.parentNode.insertBefore(t, y);
       })(window, document, 'clarity', 'script', 'm1jmkbia9z');
     </script>
-    {% block head %}{% endblock %}
   </head>
   <body>
     {% block body %}{% endblock %} {% block javascript %}{% endblock %}
