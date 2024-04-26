@@ -22,9 +22,10 @@
 | Format | Link |
 |-|:-:|
 | Website | [Read online](https://microsoft.github.io/vscode-essentials/en/) | 
-| Amazon Kindle | <a href="https://aka.ms/vscode-essentials-book/kindle"><picture><source media="(prefers-color-scheme: dark)" srcset="./images/badge-amazon-rev.png"><img alt="Get it on Amazon" src="./images/badge-amazon.png" height="36"></picture></a> |
+| Amazon Kindle (coming soon) | <a href="https://aka.ms/vscode-essentials-book/kindle"><picture><source media="(prefers-color-scheme: dark)" srcset="./images/badge-amazon-rev.png"><img alt="Get it on Amazon" src="./images/badge-amazon.png" height="36"></picture></a> |
 | Apple Books | <a href="https://aka.ms/vscode-essentials-book/apple"><picture><source media="(prefers-color-scheme: dark)" srcset="./images/badge-apple-books-rev.png"><img alt="Get it on Apple Books" src="./images/badge-apple-books.png" height="32"></picture></a> |
-| Google Play Books | <a href="https://aka.ms/vscode-essentials-book/googleplay"><img alt="Get it on Google Play Books" src="./images/badge-google-play.png" height="48"></a> |
+| Google Play Books (coming soon) | <a href="https://aka.ms/vscode-essentials-book/googleplay"><img alt="Get it on Google Play Books" src="./images/badge-google-play.png" height="48"></a> |
+| Kobo | <a href="https://aka.ms/vscode-essentials-book/kobo"><img alt="Get it on Rakuten Kobo" src="./images/badge-kobo.png" height="48"></a> |
 
 ## Trademarks
 
