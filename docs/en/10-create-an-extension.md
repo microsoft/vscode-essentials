@@ -58,6 +58,7 @@ let disposable = vscode.commands.registerCommand('vscode-overflow.search', async
 
   // Open the browser with the search
   await vscode.commands.executeCommand('vscode.open', uri);
+});
 ```
 
 Now, press `F5` to test your extension. A new VS Code window will open, with your extension installed. You can now test it by opening the command palette and selecting `Search on Stack Overflow`, enter a question and press `Enter`. A new browser window will open with the search results. You can also select text in the editor and launch the command, the selected text will be used as the question.
