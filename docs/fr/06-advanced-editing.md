@@ -35,14 +35,14 @@ Si vous appréciez avoir une base de code propre et bien formatée, vous pouvez 
 
 ![Paramètres de formatage automatique](./images/format-settings.png)
 
-> **Le saviez-vous ?** Il est possible d'insérer facilement des emojis à tout moment dans VS Code grâce à l'Emoji Picker intégré. Pour l'ouvrir, utilisez le raccourci clavier `Ctrl+I` (ou `Cmd+I` sur Mac). Vous pouvez ensuite rechercher un emoji par son nom, et l'insérer dans votre code en appuyant sur `Entrée`.
+> **Le saviez-vous ?** Il est possible d'insérer facilement des emojis à tout moment dans VS Code grâce à l'Emoji Picker du système. Pour l'ouvrir, utilisez le raccourci clavier `Win+.` sur Windows ou `Ctrl+Cmd+Espace` sur Mac. Vous pouvez ensuite rechercher un emoji par son nom, et l'insérer dans votre code en appuyant sur `Entrée`.
 
 ### Edition multi-curseurs
 
 Ma fonctionnalité favorite de VS Code est sans aucun doute l'édition multi-curseurs. Elle permet d'éditer plusieurs parties de votre code _en même temps_, et de gagner un temps précieux. Il existe plusieurs manières d'activer cette fonctionnalité :
 
 - En utilisant `Alt+Click` pour ajouter un curseur à l'endroit où vous cliquez.
-- Via le raccourci `Maj+Ctrl+Alt+Haut/Bas` (ou `Maj+Cmd+Alt+Haut/Bas` sur Mac) pour ajouter un curseur sur la ligne au-dessus ou en-dessous du curseur actuel.
+- Via le raccourci `Ctrl+Alt+Haut/Bas` (ou `Cmd+Alt+Haut/Bas` sur Mac) pour ajouter un curseur sur la ligne au-dessus ou en-dessous du curseur actuel.
 - En sélectionnant un mot ou une expression, et en appuyant sur `Ctrl+D` (ou `Cmd+D` sur Mac) pour sélectionner la prochaine occurrence, répétable à l'envie. Il est possible d'ignorer la prochaine occurence avec `Ctrl+K, Ctrl+D` (ou `Cmd+K, Cmd+D` sur Mac). Enfin, le raccourci `Maj+Ctrl+L` (ou `Maj+Cmd+L` sur Mac) permet de sélectionner toutes les occurrences en une seule fois.
 
 Une fois vos curseurs en place, on peut les déplacer avec les flèches du clavier, et éditer le texte normalement. Mais cette fois les changements seront appliqués à tous les curseurs en même temps ! Cette fonctionnalité est très pratique pour éviter de faire des modifications répétitives à la main, tel qu'ajouter des guillemets autour de chaque élément d'un tableau. Elle demande cependant un peu d'entrainement pour être utilisée efficacement.

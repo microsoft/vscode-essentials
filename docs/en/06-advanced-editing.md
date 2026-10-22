@@ -35,14 +35,14 @@ If you appreciate having a clean and well-formatted codebase, you can also use t
 
 ![Automatic formatting settings](./images/format-settings.png)
 
-> **Did you know?** It is possible to easily insert emojis at any time in VS Code thanks to the integrated Emoji Picker. To open it, use the keyboard shortcut `Ctrl+I` (or `Cmd+I` on Mac). You can then search for an emoji by its name, and insert it into your code by pressing `Enter`.
+> **Did you know?** It is possible to easily insert emojis at any time in VS Code thanks to the system Emoji Picker. To open it, use the keyboard shortcut `Win+.` on Windows or `Ctrl+Cmd+Space` on Mac. You can then search for an emoji by its name, and insert it into your code by pressing `Enter`.
 
 ### Multi-Cursor Editing
 
 My favorite feature of VS Code is without doubt the multi-cursor editing. It allows you to edit multiple parts of your code _at the same time_ and save precious time. There are several ways to activate this feature:
 
 - By using `Alt+Click` to add a cursor where you click.
-- Via the shortcut `Shift+Ctrl+Alt+Up/Down` (or `Shift+Cmd+Alt+Up/Down` on Mac) to add a cursor on the line above or below the current cursor.
+- Via the shortcut `Ctrl+Alt+Up/Down` (or `Cmd+Alt+Up/Down` on Mac) to add a cursor on the line above or below the current cursor.
 - By selecting a word or a phrase and pressing `Ctrl+D` (or `Cmd+D` on Mac) to select the next occurrence, repeatable at will. It's possible to skip the next occurrence with `Ctrl+K, Ctrl+D` (or `Cmd+K, Cmd+D` on Mac). Finally, the shortcut `Shift+Ctrl+L` (or `Shift+Cmd+L` on Mac) allows you to select all occurrences in one go.
 
 Once your cursors are in place, you can move them with the keyboard arrows, and edit the text normally. But this time, the changes will be applied to all cursors at the same time! This feature is very handy for avoiding repetitive manual modifications, such as adding quotes around each element of an array. It does, however, require a bit of practice to be used effectively.

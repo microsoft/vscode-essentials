@@ -1,0 +1,12 @@
+{
+  "root": ".",
+  "title": "Visual Studio Code - Lo Esencial",
+  "author": "Yohan Lasorsa & Christopher Maneu",
+  "language": "es",
+
+  "pdf": {
+    "fontSize": 12,
+    "paperSize": "a5",
+    "embedFonts": true
+  }
+}
